@@ -23,16 +23,13 @@ repository               : "aidansharma98/aidansharma98.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Aidan Sharma"
+  name             : #"Aidan Sharma"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student in Linguistics"
+  bio              : #"PhD Student in Linguistics"
   location         : #"Earth"
-  employer         : "Rutgers University"
+  employer         : #"Rutgers University"
   uri              : #URL
-  email            : "```text
-code();
-aidan.sharma@rutgers.edu
-```" 
+  email            : "```text code(); aidan.sharma@rutgers.edu```" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile

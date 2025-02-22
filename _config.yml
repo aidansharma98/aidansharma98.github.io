@@ -10,7 +10,7 @@
 locale                   : "en-US"
 site_theme               : "default"
 title                    : "Home"
-title_separator          : "-"
+title_separator          : "-----------"
 name                     : &name "Aidan Sharma"
 description              : &description "personal description"
 url                      : https://aidansharma98.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
@@ -29,7 +29,10 @@ author:
   location         : #"Earth"
   employer         : "Rutgers University"
   uri              : #URL
-  email            : "aidan [dot] sharma @ rutgers [dot] edu" 
+  email            : "```text
+code();
+aidan.sharma@rutgers.edu
+```" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile

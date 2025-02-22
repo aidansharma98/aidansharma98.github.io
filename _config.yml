@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : #"aidan.sharma@rutgers.edu"
   pronouns         : # example: "she/her"  
-  bio              : "Rutgers Linguistics"
+  bio              : #"Rutgers Linguistics"
   location         : #"Earth"
-  employer         : "aidan.sharma@rutgers.edu"
+  employer         : #"aidan.sharma@rutgers.edu"
   uri              : #URL
   email            : #"```text code(); aidan.sharma@rutgers.edu```" 
 

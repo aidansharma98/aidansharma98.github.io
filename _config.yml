@@ -25,12 +25,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Aidan Sharma"
-  pronouns         : # example: "she/her"  
+  pronouns         : "aidan.sharma@rutgers.edu" #example: "she/her"  
   bio              : "PhD Student, Rutgers Linguistics"
   location         : #"Earth"
   employer         : #"Red Brick University"
   uri              : # URL
-  email            : "aidan.sharma@rutgers.edu" 
+  email            : #"aidan.sharma@rutgers.edu" 
 
   # Academic websites
   academia         : # URL

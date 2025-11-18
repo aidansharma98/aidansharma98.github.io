@@ -1,8 +1,8 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.5074456,
-    -0.1277653
+    "Extra c\u00e1i Definites in Vietnamese<br />14th Workshop on Theoretical East Asian Linguistics (TEAL 14); University of Southern California",
+    34.021869,
+    -118.2858579
   ],
   [
     "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",

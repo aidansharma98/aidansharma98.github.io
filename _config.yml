@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Home"
+title                    : "Aidan Sharma"
 title_separator          : "-"
 name                     : &name "Aidan Sharma"
 description              : &description "Aidan Sharma"   # Update this with a general description of your site, this is the default if not overridden by a page

@@ -1,7 +1,7 @@
 ---
 title: "Definiteness and Familiarity in Yemba"
 collection: talks
-type: "Conference proceedings talk"
+type: "Talk"
 permalink: /talks/2014-03-01-talk-3
 venue: "TripleA 12"
 date: 2025-09-11

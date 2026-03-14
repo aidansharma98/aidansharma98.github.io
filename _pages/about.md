@@ -9,8 +9,7 @@ profile:
   image: profile.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>PhD Student</p>
-    <p>Rutgers Linguistics</p>
+    <p>PhD Student | Rutgers Linguistics</p>
     <p>aidan.sharma@rutgers.edu<p>
     
 selected_papers: true # includes a list of papers marked as "selected={true}"

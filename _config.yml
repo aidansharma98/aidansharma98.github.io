@@ -56,7 +56,7 @@ external_services:
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: true
+socials_in_search: false
 posts_in_search: true
 bib_search: true
 
@@ -92,7 +92,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_description: #a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

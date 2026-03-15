@@ -28,16 +28,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-ll-be-presenting-with-jiayuan-chen-at-wccfl-44-sula-triplea-2026-and-salt-36",
+          title: 'I’ll be presenting with Jiayuan Chen at WCCFL 44, SULA-TripleA 2026, and SALT...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-ll-be-presenting-on-in-definiteness-spreading-at-fasal-16-and-glow-48",
+          title: 'I’ll be presenting on (In)Definiteness Spreading at FASAL 16 and GLOW 48.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-ll-be-presenting-with-ariela-ye-at-tu-12",
+          title: 'I’ll be presenting with Ariela Ye at Tu+ 12.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',

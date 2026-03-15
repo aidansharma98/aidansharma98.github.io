@@ -34,8 +34,8 @@ cv:
       - institution: University of California, Los Angeles
         #location: Zurich, Switzerland
         #url: https://www.uzh.ch/
-        area: Minor in Linguistics; Russian Flagship Program
-        studyType: B.S. Mathematics
+       # area: Minor in Linguistics
+        studyType: B.S. Mathematics with a Minor in Linguistics
         start_date: 2017
         end_date: 2022
         #score: ""
@@ -75,24 +75,6 @@ cv:
      #     - Description 2.
 
 
-
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
         authors:
@@ -121,11 +103,37 @@ cv:
 
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Native
+        summary: "English"
 
-      - name: English
-        summary: "Fluent"
+      - name: Advanced
+        summary: "Russian"
+
+      - name: Intermediate
+        summary: "Serbian"
+
+      - name: Basic
+        summary: "Mandarin, Hindi"
+
+      - name: Elicitation
+        summar: "Magahi, Kazakh"
+
+    
+    Awards:
+      - title: Nobel Prize in Physics
+        authors:
+          - "Royal Swedish Academy of Sciences"
+        date: 1921-11-01
+        awarder: Royal Swedish Academy of Sciences
+        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+
+      - title: Max Planck Medal
+        authors:
+          - "German Physical Society"
+        date: 2029
+        awarder: German Physical Society
+        summary: Awarded for outstanding scientific achievement
 
 
 #    Certificates:

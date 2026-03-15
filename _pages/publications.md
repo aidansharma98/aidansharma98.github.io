@@ -11,10 +11,14 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
-{% include bib_search.liquid %}
-
 <div class="publications">
+  <h1>Journal Papers</h1>
+  {% bibliography -f papers %}
 
-{% bibliography %}
+  <h1>Conference Proceedings</h1>
+  {% for y in page.years %}
+    <h2 class="year">{{y}}</h2>
+    {% bibliography -f proceedings -q @*[year={{y}}]* %}
+  {% endfor %}
 
-</div>
+  </div>

@@ -1,8 +1,7 @@
 ---
 layout: post
-title: A long announcement with details
 date: 
-inline: false
+inline: true
 related_posts: false
 ---
 

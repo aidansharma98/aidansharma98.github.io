@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date:
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Jiayuan Chen and I will be presenting at WCCFL 44, SULA-TripleA 2026, and SALT 36.

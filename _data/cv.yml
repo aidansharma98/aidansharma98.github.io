@@ -12,14 +12,14 @@ cv:
         start_date: 2017
         end_date: 2022
 
-    Journal_Publications:
+    Journal Publications:
       - title: Uyghur Umlaut as Vowel Reduction
         authors:
           - Aidan Sharma
         publisher: Phonology
         releaseDate: Accepted
 
-    Conference_Proceedings:
+    Conference Proceedings:
       - title: Familiar Definite Marking in Magahi
         authors:
           - Aidan Sharma
@@ -27,7 +27,7 @@ cv:
         releaseDate: 2025
         url: https://ojs.ub.uni-konstanz.de/jsal/index.php/fasal/article/view/340
 
-    Other_Education:
+    Other Education:
       - institution: University of Wisconsin-Madison
         studyType: South Asian Summer Language Institute
         start_date: 2026

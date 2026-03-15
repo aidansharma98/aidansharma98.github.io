@@ -17,5 +17,8 @@ nav_order: 2
 
   <h1>Conference Proceedings</h1>
     {% bibliography -f proceedings %}
+
+  <h1>Conference Presentations</h1>
+    {% bibliography -f presentations %}
     
   </div>

@@ -3,25 +3,14 @@ cv:
   sections:
     Education:
       - institution: Rutgers University
-        #location: Zurich, Switzerland
-        #url: https://www.uzh.ch/
-        #area: Minor in Linguistics; Russian Flagship Program
         studyType: PhD in Linguistics
         start_date: 2022
         end_date: Present
         
       - institution: University of California, Los Angeles
-        #location: Zurich, Switzerland
-        #url: https://www.uzh.ch/
-       # area: Minor in Linguistics
         studyType: B.S. in Mathematics with a Minor in Linguistics
         start_date: 2017
         end_date: 2022
-        #score: ""
-        #courses: "Theory of Relativity"
-        #highlights:
-          #- Description 1.
-          #- Description 2.
 
     Journal Publications:
       - title: Uyghur Umlaut as Vowel Reduction
@@ -29,7 +18,6 @@ cv:
           - Aidan Sharma
         publisher: Phonology
         releaseDate: Accepted
-        #url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
 
     Conference Proceedings:
       - title: Familiar Definite Marking in Magahi
@@ -39,82 +27,47 @@ cv:
         releaseDate: 2025
         url: https://ojs.ub.uni-konstanz.de/jsal/index.php/fasal/article/view/340
 
-
-
     Other Education:
-        - institution: University of Wisconsin-Madison
-        #location: Zurich, Switzerland
-        #url: https://www.uzh.ch/
-        #area: Minor in Linguistics; Russian Flagship Program
+      - institution: University of Wisconsin-Madison
         studyType: South Asian Summer Language Institute
         start_date: Summer 2026
-        #end_date: 2022
-
         
-        - institution: University of Southern California
-        #location: Zurich, Switzerland
-        #url: https://www.uzh.ch/
-        #area: Minor in Linguistics; Russian Flagship Program
+      - institution: University of Southern California
         studyType: North American Summer School in Logic, Language, and Information
         start_date: Summer 2022
-        #end_date: 2022
-      
-        - institution: Al-Farabi Kazakh National University
-        #location: Zurich, Switzerland
-        #url: https://www.uzh.ch/
-        #area: Minor in Linguistics; Russian Flagship Program
+        
+      - institution: Al-Farabi Kazakh National University
         studyType: American Councils for International Education Russian Overseas Flagship Program
         start_date: 2021
         end_date: 2022
         
-        - institution: Al-Farabi Kazakh National University
-        #location: Zurich, Switzerland
-        #url: https://www.uzh.ch/
-        #area: Minor in Linguistics; Russian Flagship Program
+      - institution: Al-Farabi Kazakh National University
         studyType: American Councils for International Education Advanced Russian Language and Area Studies Program
         start_date: Summer 2020
-        #end_date: Present
-
-
+        end_date: Present
 
     Awards:
       - title: UW-Madison Foreign Languages & Area Studies Fellowship
-        #authors:
-         # - "Royal Swedish Academy of Sciences"
         date: 2026
-        #awarder: Royal Swedish Academy of Sciences
-        #url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        #summary: 
-
         
       - title: UCLA Russian Flagship Scholarship for Capstone Year
-        #authors:
-         # - "Royal Swedish Academy of Sciences"
         date: 2021 -- 2022
-        #awarder: Royal Swedish Academy of Sciences
-        #url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        #summary: 
-
-      - title: UCLA Russian Flagship Scholarship for pre-capstone study abroad program
-        #authors:
-         # - "Royal Swedish Academy of Sciences"
+        
+      - title: UCLA Russian Flagship Scholarship for Pre-Capstone Study Abroad Program
         date: 2020
-        #awarder: Royal Swedish Academy of Sciences
-        #url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        #summary: 
 
     Languages:
       - name: Native
         summary: "English"
-
+        
       - name: Advanced
         summary: "Russian"
-
+        
       - name: Intermediate
         summary: "Serbian"
-
+        
       - name: Basic
         summary: "Mandarin, Hindi"
-
+        
       - name: Elicitation
-        summar: "Magahi, Kazakh, Kyrgyz, Uyghur"
+        summary: "Magahi, Kazakh, Kyrgyz, Uyghur"

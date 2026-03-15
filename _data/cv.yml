@@ -27,7 +27,7 @@ cv:
         #location: Zurich, Switzerland
         #url: https://www.uzh.ch/
         #area: Minor in Linguistics; Russian Flagship Program
-        studyType: PhD Linguistics
+        studyType: PhD in Linguistics
         start_date: 2022
         end_date: Present
         
@@ -35,7 +35,7 @@ cv:
         #location: Zurich, Switzerland
         #url: https://www.uzh.ch/
        # area: Minor in Linguistics
-        studyType: B.S. Mathematics with a Minor in Linguistics
+        studyType: B.S. in Mathematics with a Minor in Linguistics
         start_date: 2017
         end_date: 2022
         #score: ""
@@ -87,11 +87,73 @@ cv:
       - title: Familiar Definite Marking in Magahi
         authors:
           - Aidan Sharma
-        publisher: Proceedings of FASAL-14
+        publisher: Proceedings of FASAL 14
         releaseDate: 2025
         url: https://ojs.ub.uni-konstanz.de/jsal/index.php/fasal/article/view/340
 
 
+
+      Other Education:
+        - institution: University of Wisconsin-Madison
+        #location: Zurich, Switzerland
+        #url: https://www.uzh.ch/
+        #area: Minor in Linguistics; Russian Flagship Program
+        studyType: South Asian Summer Language Institute
+        start_date: Summer 2026
+        #end_date: 2022
+
+        
+        - institution: University of Southern California
+        #location: Zurich, Switzerland
+        #url: https://www.uzh.ch/
+        #area: Minor in Linguistics; Russian Flagship Program
+        studyType: North American Summer School in Logic, Language, and Information
+        start_date: Summer 2022
+        #end_date: 2022
+      
+        - institution: Al-Farabi Kazakh National University
+        #location: Zurich, Switzerland
+        #url: https://www.uzh.ch/
+        #area: Minor in Linguistics; Russian Flagship Program
+        studyType: American Councils for International Education Russian Overseas Flagship Program
+        start_date: 2021
+        end_date: 2022
+        
+        - institution: Al-Farabi Kazakh National University
+        #location: Zurich, Switzerland
+        #url: https://www.uzh.ch/
+        #area: Minor in Linguistics; Russian Flagship Program
+        studyType: American Councils for International Education Advanced Russian Language and Area Studies Program
+        start_date: Summer 2020
+        #end_date: Present
+
+
+
+       Awards:
+      - title: UW-Madison Foreign Languages & Area Studies Fellowship
+        #authors:
+         # - "Royal Swedish Academy of Sciences"
+        date: 2026
+        #awarder: Royal Swedish Academy of Sciences
+        #url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+        #summary: 
+
+        
+      - title: UCLA Russian Flagship Scholarship for Capstone Year
+        #authors:
+         # - "Royal Swedish Academy of Sciences"
+        date: 2021 -- 2022
+        #awarder: Royal Swedish Academy of Sciences
+        #url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+        #summary: 
+
+      - title: UCLA Russian Flagship Scholarship for pre-capstone study abroad program
+        #authors:
+         # - "Royal Swedish Academy of Sciences"
+        date: 2020
+        #awarder: Royal Swedish Academy of Sciences
+        #url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+        #summary: 
 
     Languages:
       - name: Native
@@ -107,24 +169,10 @@ cv:
         summary: "Mandarin, Hindi"
 
       - name: Elicitation
-        summar: "Magahi, Kazakh"
+        summar: "Magahi, Kazakh, Kyrgyz, Uyghur"
 
     
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
 
 
 #    Certificates:

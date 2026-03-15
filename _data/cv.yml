@@ -30,11 +30,13 @@ cv:
     Other Education:
       - institution: University of Wisconsin-Madison
         studyType: South Asian Summer Language Institute
-        start_date: Summer 2026
+        start_date: 2026
+        end_date: 2026
         
       - institution: University of Southern California
         studyType: North American Summer School in Logic, Language, and Information
-        start_date: Summer 2022
+        start_date: 2022
+        end_date: 2022
         
       - institution: Al-Farabi Kazakh National University
         studyType: American Councils for International Education Russian Overseas Flagship Program
@@ -43,8 +45,8 @@ cv:
         
       - institution: Al-Farabi Kazakh National University
         studyType: American Councils for International Education Advanced Russian Language and Area Studies Program
-        start_date: Summer 2020
-        end_date: Present
+        start_date: 2020
+        end_date: 2020
 
     Awards:
       - title: UW-Madison Foreign Languages & Area Studies Fellowship

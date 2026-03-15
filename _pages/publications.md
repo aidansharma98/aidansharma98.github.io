@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title:
 description:
 nav: true
 nav_order: 2
@@ -16,9 +16,6 @@ nav_order: 2
   {% bibliography -f papers %}
 
   <h1>Conference Proceedings</h1>
-  {% for y in page.years %}
-    <h2 class="year">{{y}}</h2>
-    {% bibliography -f proceedings -q @*[year={{y}}]* %}
-  {% endfor %}
-
+    {% bibliography -f proceedings %}
+    
   </div>

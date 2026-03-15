@@ -288,6 +288,18 @@ layout: default
           </div>
         {% endif %}
 
+      <!-- Other Education -->
+{% if site.data.resume.otherEducation.size > 0 %}
+  <a class="anchor" id="other-education"></a>
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium">Other Education</h3>
+    <div>
+      {% assign entries = site.data.resume.otherEducation %}
+      {% include cv/education.liquid %}
+    </div>
+  </div>
+{% endif %}
+
         <!-- Awards -->
         {% if site.data.resume.awards.size > 0 %}
           <a class="anchor" id="awards"></a>
@@ -311,6 +323,34 @@ layout: default
             </div>
           </div>
         {% endif %}
+
+        <!-- Journal Publications -->
+{% assign journal_pubs = site.data.resume.publications | where: "type", "journal" %}
+{% if journal_pubs.size > 0 %}
+  <a class="anchor" id="journal-publications"></a>
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium">Journal Publications</h3>
+    <div>
+      {% assign entries = journal_pubs %}
+      {% include cv/publications.liquid %}
+    </div>
+  </div>
+{% endif %}
+
+
+<!-- Conference Proceedings -->
+{% assign conf_pubs = site.data.resume.publications | where: "type", "conference" %}
+{% if conf_pubs.size > 0 %}
+  <a class="anchor" id="conference-proceedings"></a>
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium">Conference Proceedings</h3>
+    <div>
+      {% assign entries = conf_pubs %}
+      {% include cv/publications.liquid %}
+    </div>
+  </div>
+{% endif %}
+
 
         <!-- Skills -->
         {% if site.data.resume.skills.size > 0 %}

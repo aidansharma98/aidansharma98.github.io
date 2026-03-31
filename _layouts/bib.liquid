@@ -262,6 +262,13 @@
     <a href="{{ entry.handout | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Handout</a>
   {% endif %}
 {% endif %}
+{% if entry.draft %}
+  {% if entry.draft contains '://' %}
+    <a href="{{ entry.draft }}" class="btn btn-sm z-depth-0" role="button">Draft</a>
+  {% else %}
+    <a href="{{ entry.draft | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Draft</a>
+  {% endif %}
+{% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}

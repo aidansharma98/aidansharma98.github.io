@@ -28,11 +28,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-ll-be-presenting-with-jiayuan-chen-at-wccfl-44-sula-triplea-2026-and-salt-36-on-anti-uniqueness-and-non-honorificity-in-the-magahi-definite-marker-waa",
-          title: 'I’ll be presenting with Jiayuan Chen at WCCFL 44, SULA-TripleA 2026, and SALT...',
-          description: "",
-          section: "News",},{id: "news-i-ll-be-presenting-a-poster-on-in-definiteness-spreading-and-multiple-classifier-constructions-at-glow-48",
-          title: 'I’ll be presenting a poster on (In)Definiteness Spreading and Multiple Classifier Constructions at...',
+            },},{id: "news-i-ll-be-presenting-with-jiayuan-chen-at-salt-36-on-anti-uniqueness-and-non-honorificity-in-the-magahi-definite-marker-waa",
+          title: 'I’ll be presenting with Jiayuan Chen at SALT 36 on anti-uniqueness and non-honorificity...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',

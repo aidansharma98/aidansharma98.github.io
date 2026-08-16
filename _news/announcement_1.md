@@ -4,4 +4,4 @@ inline: true
 related_posts: false
 ---
 
-I'll be presenting with Jiayuan Chen at SALT 36 on anti-uniqueness and non-honorificity in the Magahi definite marker *-waa*.
+I'll be presenting with on a split-scope semantics for determiner spreading at NELS 57 at CUNY.

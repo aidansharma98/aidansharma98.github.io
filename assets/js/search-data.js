@@ -28,8 +28,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-ll-be-presenting-with-jiayuan-chen-at-salt-36-on-anti-uniqueness-and-non-honorificity-in-the-magahi-definite-marker-waa",
-          title: 'I’ll be presenting with Jiayuan Chen at SALT 36 on anti-uniqueness and non-honorificity...',
+            },},{id: "news-i-ll-be-presenting-with-on-a-split-scope-semantics-for-determiner-spreading-at-nels-57-at-cuny",
+          title: 'I’ll be presenting with on a split-scope semantics for determiner spreading at NELS...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',

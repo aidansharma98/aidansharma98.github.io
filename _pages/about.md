@@ -27,7 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a fourth year Linguistics PhD student at Rutgers University. I work on Eastern Indo-Aryan languages (primarily Magahi) and Central Asian Turkic languages (primarily Kazakh). My theoretical interests are mostly in syntax and semantics, but I have done some P-side work as well.
+I'm a fifth year Linguistics PhD student at Rutgers University. My theoretical interests are mostly in syntax and semantics, but I have done some P-side work as well. My research focuses on definiteness and honorificity.
+
+Language-wise, my work is mainly on (Eastern) Indo-Aryan. In particular, I'm interested in Magahi and the other languages spoken in Bihar, but I have also begun working on the Western Indo-Aryan language Banjara. Outside of Indo-Aryan, I'm also interested in Central Asian Turkic languages and have worked on Kazakh and Uyghur. 
 
 At Rutgers, I'm a member of the [Meaning Across Languages Lab](https://sites.rutgers.edu/themallab/) run by Dorothy Ahn and the Fieldwork Lab run by Maria Kouneli and Ryan Walter Smith.
 

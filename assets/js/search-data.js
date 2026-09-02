@@ -28,8 +28,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-ll-be-presenting-with-on-a-split-scope-semantics-for-determiner-spreading-at-nels-57-at-cuny",
-          title: 'I’ll be presenting with on a split-scope semantics for determiner spreading at NELS...',
+            },},{id: "news-i-ll-be-presenting-on-a-split-scope-semantics-for-determiner-spreading-at-nels-57-at-cuny",
+          title: 'I’ll be presenting on a split-scope semantics for determiner spreading at NELS 57...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',

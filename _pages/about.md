@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a fifth year Linguistics PhD student at Rutgers University advised by [Mark Baker](https://sites.rutgers.edu/mark-baker/) and [Dorothy Ahn](https://dorothyahn.com/). My theoretical interests are mostly in syntax and semantics, but I have done some P-side work as well. My research focuses on definiteness and honorificity.
+I'm a fifth year Linguistics PhD student at Rutgers University advised by [Mark Baker](https://sites.rutgers.edu/mark-baker/) and [Dorothy Ahn](https://dorothyahn.com/). My theoretical interests are mostly in syntax and semantics, but I have done some P-side work as well. My research focuses on definiteness and honorificity, and I also have interests in multi-functional quantifier particles and vowel reduction.
 
 Language-wise, my work is mainly on (Eastern) Indo-Aryan. In particular, I'm interested in Magahi and the other languages spoken in Bihar, but I have also begun working on the Western Indo-Aryan language Banjara. Outside of Indo-Aryan, I'm interested in Central Asian Turkic languages and have worked on Kazakh and Uyghur. 
 

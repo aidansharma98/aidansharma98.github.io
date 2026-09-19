@@ -187,23 +187,26 @@
   margin-bottom: 1rem;
 }
 
-.publication-authors,
-.publication-year,
-.publication-title,
-.publication-venue {
-  display: inline;
-}
-
 .publication-title {
   font-weight: 500;
 }
 
+.publication-links {
+  white-space: normal;
+}
+
 .publication-link {
-  margin-left: 0.35rem;
+  margin-left: 0.4rem;
   white-space: nowrap;
   text-decoration: none;
 }
 
 .publication-link:hover {
   text-decoration: underline;
+}
+
+.publication-note,
+.publication-location,
+.publication-additional-info {
+  margin-left: 0.15rem;
 }

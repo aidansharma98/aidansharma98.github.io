@@ -1,246 +1,237 @@
 /*******************************************************************************
- * Publication and bibliography styles
- ******************************************************************************/
+
+Publication and bibliography styles
+******************************************************************************/
 
 @use "variables" as v;
 
 .publications {
-  margin-top: 2rem;
+margin-top: 2rem;
 
-  h1 {
-    color: var(--global-theme-color);
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
+h1 {
+color: var(--global-theme-color);
+font-size: 2rem;
+text-align: center;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+h2 {
+margin-bottom: 1rem;
+
+span {
+  font-size: 1.5rem;
+}
+
+
+}
+
+h2.bibliography {
+color: var(--global-divider-color);
+border-top: 1px solid var(--global-divider-color);
+padding-top: 1rem;
+margin-top: 2rem;
+text-align: right;
+}
+
+ol.bibliography {
+list-style: none;
+padding: 0;
+margin-top: 0;
+
+li {
+  margin-bottom: 1rem;
+
+  .preview {
+    display: inline-block;
   }
 
-  h2 {
-    margin-bottom: 1rem;
+  .abbr {
+    margin-bottom: 0.5rem;
+
+    abbr {
+      display: inline-block;
+      background-color: var(--global-theme-color);
+      margin-bottom: 0.5rem;
+      color: var(--global-card-bg-color) !important;
+
+      a {
+        color: white;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .award {
+      color: var(--global-theme-color) !important;
+      border: 1px solid var(--global-theme-color);
+    }
+  }
+
+  /*
+   * Main publication layout
+   *
+   * The citation fills the available space.
+   * The single button is pinned to the far right.
+   */
+  .publication-content {
+    width: 100%;
+  }
+
+  .publication-citation {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 1.5rem;
+    align-items: start;
+    width: 100%;
+  }
+
+  .publication-citation-text {
+    min-width: 0;
+    line-height: 1.5;
+  }
+
+  /*
+   * Authors
+   */
+  .publication-authors {
+    a {
+      border-bottom: 1px dashed var(--global-theme-color);
+
+      &:hover {
+        border-bottom-style: solid;
+        text-decoration: none;
+      }
+    }
+
+    em {
+      border-bottom: 1px solid;
+      font-style: normal;
+    }
+  }
+
+  /*
+   * Citation fields
+   */
+  .publication-year {
+    white-space: nowrap;
+  }
+
+  .publication-title {
+    font-weight: bolder;
+  }
+
+  .publication-venue {
+    font-style: normal;
+  }
+
+  .publication-note,
+  .publication-location,
+  .publication-additional-info {
+    margin-left: 0.15rem;
+  }
+
+  /*
+   * Single publication button
+   */
+  .publication-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex: 0 0 auto;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .publication-links a.btn {
+    color: var(--global-text-color);
+    border: 1px solid var(--global-text-color);
+    padding: 0.25rem 1rem;
+    margin: 0;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
+  }
+
+  .publication-links a.award.btn {
+    border-color: var(--global-highlight-color);
+  }
+
+  /*
+   * Badges
+   */
+  .badges {
+    padding-bottom: 0.5rem;
 
     span {
-      font-size: 1.5rem;
-    }
-  }
+      display: inline-block;
+      color: v.$black-color;
+      height: 100%;
+      padding-right: 0.5rem;
+      vertical-align: middle;
 
-  h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
-    margin-top: 2rem;
-    text-align: right;
-  }
-
-  ol.bibliography {
-    list-style: none;
-    padding: 0;
-    margin-top: 0;
-
-    li {
-      margin-bottom: 1rem;
-
-      .preview {
-        display: inline-block;
-      }
-
-      .abbr {
-        margin-bottom: 0.5rem;
-
-        abbr {
-          display: inline-block;
-          background-color: var(--global-theme-color);
-          margin-bottom: 0.5rem;
-          color: var(--global-card-bg-color) !important;
-
-          a {
-            color: white;
-
-            &:hover {
-              text-decoration: none;
-            }
-          }
-        }
-
-        .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
-        }
-      }
-
-      /*
-       * Main publication layout
-       *
-       * Citation text stays on the left.
-       * Buttons sit on the right.
-       */
-      .publication-citation {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        gap: 1rem;
-        width: 100%;
-      }
-
-      .publication-citation-text {
-        flex: 1 1 auto;
-        min-width: 0;
-      }
-
-      .publication-authors {
-        .author {
-          a {
-            border-bottom: 1px dashed var(--global-theme-color);
-
-            &:hover {
-              border-bottom-style: solid;
-              text-decoration: none;
-            }
-          }
-        }
-
-        a {
-          border-bottom: 1px dashed var(--global-theme-color);
-
-          &:hover {
-            border-bottom-style: solid;
-            text-decoration: none;
-          }
-        }
-
-        em {
-          border-bottom: 1px solid;
-          font-style: normal;
-        }
-      }
-
-      .publication-year {
-        white-space: nowrap;
-      }
-
-      .publication-title {
-        font-weight: bolder;
-      }
-
-      .publication-venue {
-        font-style: normal;
-      }
-
-      .publication-note {
-        margin-left: 0.25rem;
-      }
-
-      .publication-location {
-        margin-left: 0.25rem;
-      }
-
-      .publication-additional-info {
-        margin-left: 0.25rem;
-      }
-
-      /*
-       * Publication buttons
-       */
-      .links {
-        flex: 0 0 auto;
-        align-self: flex-start;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        gap: 0.35rem;
-        margin-top: 0;
-        white-space: nowrap;
-
-        a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
-
-          &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
-          }
-        }
-
-        a.award.btn {
-          border-color: var(--global-highlight-color);
-        }
-      }
-
-      /*
-       * Badges
-       */
-      .badges {
-        padding-bottom: 0.5rem;
-
-        span {
-          display: inline-block;
-          color: v.$black-color;
-          height: 100%;
-          padding-right: 0.5rem;
-          vertical-align: middle;
-
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
-
-      /*
-       * Hidden abstract / award / bibtex / video content
-       */
-      .hidden {
-        font-size: 0.875rem;
-        max-height: 0px;
-        overflow: hidden;
-        text-align: justify;
-        transition: all 0.15s ease;
-
-        p {
-          line-height: 1.4em;
-          margin: 10px;
-        }
-
-        pre {
-          font-size: 1em;
-          line-height: 1.4em;
-          padding: 10px;
-        }
-      }
-
-      .hidden.open {
-        max-height: 100em;
-        transition: all 0.15s ease;
-      }
-
-      div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
-      }
-
-      div.abstract.hidden.open {
-        border-color: var(--global-text-color);
-      }
-
-      /*
-       * Mobile layout
-       *
-       * Stack the citation and buttons vertically when
-       * the screen becomes too narrow.
-       */
-      @media (max-width: 768px) {
-        .publication-citation {
-          display: block;
-        }
-
-        .links {
-          justify-content: flex-start;
-          margin-top: 0.75rem;
-          white-space: normal;
-        }
+      &:hover {
+        text-decoration: underline;
       }
     }
   }
+
+  /*
+   * Hidden content
+   */
+  .hidden {
+    font-size: 0.875rem;
+    max-height: 0;
+    overflow: hidden;
+    text-align: justify;
+    transition: all 0.15s ease;
+
+    p {
+      line-height: 1.4em;
+      margin: 10px;
+    }
+
+    pre {
+      font-size: 1em;
+      line-height: 1.4em;
+      padding: 10px;
+    }
+  }
+
+  .hidden.open {
+    max-height: 100em;
+  }
+
+  div.abstract.hidden {
+    border: dashed 1px var(--global-bg-color);
+  }
+
+  div.abstract.hidden.open {
+    border-color: var(--global-text-color);
+  }
+
+  /*
+   * Mobile
+   *
+   * Citation first, button underneath.
+   */
+  @media (max-width: 768px) {
+    .publication-citation {
+      display: block;
+    }
+
+    .publication-links {
+      justify-content: flex-start;
+      margin-top: 0.75rem;
+    }
+  }
+}
+
+
+}
 }

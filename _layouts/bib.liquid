@@ -97,9 +97,8 @@
     {% endif %}
 
     <!-- NOTE -->
-    {% if entry.note %}
-      <span class="publication-note">{{ entry.note | strip }}.</span>
-    {% endif %}
+    {% if entry.note %} <span class="publication-note">{{ entry.note | strip }}.</span>{% endif %}
+
 
     <!-- ADDITIONAL INFO -->
     {% if entry.additional_info %}

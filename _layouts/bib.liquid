@@ -1,4 +1,4 @@
----
+```liquid
 ---
 <div class="row">
   {% if site.enable_publication_thumbnails %}
@@ -50,64 +50,89 @@
     class="{% if site.enable_publication_thumbnails %}col-sm-9{% else %}col-sm-12{% endif %}"
   >
 
-    <div class="publication-citation">
+    <!-- ========================================================= -->
+    <!-- PUBLICATION CITATION + BUTTONS                            -->
+    <!-- ========================================================= -->
 
-      <!-- ==================== AUTHORS ==================== -->
-      <span class="publication-authors">{% assign author_array_size = entry.author_array | size %}{% assign author_array_limit = author_array_size %}{% if site.max_author_limit and author_array_size > site.max_author_limit %}{% assign author_array_limit = site.max_author_limit %}{% endif %}{% for author in entry.author_array limit: author_array_limit %}{% assign author_is_self = false %}{% assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' %}{% assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' %}{% if site.scholar.last_name contains author_last_name and site.scholar.first_name contains author.first %}{% assign author_is_self = true %}{% endif %}{% assign coauthor_url = null %}{% assign clean_last_name = author_last_name | downcase | remove_accents %}{% if site.data.coauthors[clean_last_name] %}{% for coauthor in site.data.coauthors[clean_last_name] %}{% if coauthor.firstname contains author.first %}{% assign coauthor_url = coauthor.url %}{% break %}{% endif %}{% endfor %}{% endif %}{% unless forloop.first %}{% if forloop.last %} & {% else %}, {% endif %}{% endunless %}{% if author_is_self %}<em>{{ author_last_html }}, {{ author.first }}</em>{% elsif coauthor_url %}<a href="{{ coauthor_url }}">{{ author_last_html }}, {{ author.first }}</a>{% else %}{{ author_last_html }}, {{ author.first }}{% endif %}{% endfor %}{% assign more_authors = author_array_size | minus: author_array_limit %}{% if more_authors > 0 %}, and {{ more_authors }} more author{% if more_authors > 1 %}s{% endif %}{% endif %}</span>.
+    <div
+      class="publication-citation"
+      style="display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem;"
+    >
 
-      <!-- ==================== YEAR ==================== -->
-      {% if entry.year %}
-        <span class="publication-year">{{ entry.year }}</span>.
-      {% endif %}
+      <!-- ======================================================= -->
+      <!-- CITATION TEXT                                           -->
+      <!-- ======================================================= -->
 
-      <!-- ==================== TITLE ==================== -->
-      <span class="publication-title">{{ entry.title }}</span>.
+      <div
+        class="publication-citation-text"
+        style="flex: 1 1 auto; min-width: 0;"
+      >
 
-      <!-- ==================== VENUE ==================== -->
-      {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
-      {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
+        <!-- ==================== AUTHORS ==================== -->
+        <span class="publication-authors">{% assign author_array_size = entry.author_array | size %}{% assign author_array_limit = author_array_size %}{% if site.max_author_limit and author_array_size > site.max_author_limit %}{% assign author_array_limit = site.max_author_limit %}{% endif %}{% for author in entry.author_array limit: author_array_limit %}{% assign author_is_self = false %}{% assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' %}{% assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' %}{% if site.scholar.last_name contains author_last_name and site.scholar.first_name contains author.first %}{% assign author_is_self = true %}{% endif %}{% assign coauthor_url = null %}{% assign clean_last_name = author_last_name | downcase | remove_accents %}{% if site.data.coauthors[clean_last_name] %}{% for coauthor in site.data.coauthors[clean_last_name] %}{% if coauthor.firstname contains author.first %}{% assign coauthor_url = coauthor.url %}{% break %}{% endif %}{% endfor %}{% endif %}{% unless forloop.first %}{% if forloop.last %} & {% else %}, {% endif %}{% endunless %}{% if author_is_self %}<em>{{ author_last_html }}, {{ author.first }}</em>{% elsif coauthor_url %}<a href="{{ coauthor_url }}">{{ author_last_html }}, {{ author.first }}</a>{% else %}{{ author_last_html }}, {{ author.first }}{% endif %}{% endfor %}{% assign more_authors = author_array_size | minus: author_array_limit %}{% if more_authors > 0 %}, and {{ more_authors }} more author{% if more_authors > 1 %}s{% endif %}{% endif %}</span>.
 
-      {% if entry.type == 'article' %}
-        {% if entry.journal %}<span class="publication-venue"><em>{{ entry.journal }}</em></span>.{% endif %}
-
-      {% elsif proceedings contains entry.type %}
-        {% if entry.booktitle %}<span class="publication-venue"><em>{{ entry.booktitle }}</em></span>.{% endif %}
-
-      {% elsif thesis contains entry.type %}
-        {% if entry.school %}<span class="publication-venue"><em>{{ entry.school }}</em></span>.{% endif %}
-
-      {% elsif entry.type == 'book' or entry.type == 'inbook' %}
-        {% if entry.publisher %}<span class="publication-venue"><em>{{ entry.publisher }}</em></span>.{% endif %}
-
-      {% else %}
-        {% if entry.journal %}
-          <span class="publication-venue"><em>{{ entry.journal }}</em></span>.
-        {% elsif entry.booktitle %}
-          <span class="publication-venue"><em>{{ entry.booktitle }}</em></span>.
-        {% elsif entry.school %}
-          <span class="publication-venue"><em>{{ entry.school }}</em></span>.
-        {% elsif entry.publisher %}
-          <span class="publication-venue"><em>{{ entry.publisher }}</em></span>.
+        <!-- ==================== YEAR ==================== -->
+        {% if entry.year %}
+          <span class="publication-year">{{ entry.year }}</span>.
         {% endif %}
-      {% endif %}
 
-      <!-- ==================== LOCATION ==================== -->
-      {% if entry.location %}
-        <span class="publication-location">{{ entry.location }}.</span>
-      {% endif %}
+        <!-- ==================== TITLE ==================== -->
+        <span class="publication-title">{{ entry.title }}</span>.
 
-      <!-- ==================== NOTE ==================== -->
-      {% if entry.note %}
-        <span class="publication-note">{{ entry.note | strip }}.</span>
-      {% endif %}
+        <!-- ==================== VENUE ==================== -->
+        {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
+        {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
 
-      <!-- ==================== ADDITIONAL INFO ==================== -->
-      {% if entry.additional_info %}
-        <span class="publication-additional-info">{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' | strip }}.</span>
-      {% endif %}
+        {% if entry.type == 'article' %}
+          {% if entry.journal %}<span class="publication-venue"><em>{{ entry.journal }}</em></span>.{% endif %}
 
-      <!-- ==================== LINKS ==================== -->
-      <span class="links">
+        {% elsif proceedings contains entry.type %}
+          {% if entry.booktitle %}<span class="publication-venue"><em>{{ entry.booktitle }}</em></span>.{% endif %}
+
+        {% elsif thesis contains entry.type %}
+          {% if entry.school %}<span class="publication-venue"><em>{{ entry.school }}</em></span>.{% endif %}
+
+        {% elsif entry.type == 'book' or entry.type == 'inbook' %}
+          {% if entry.publisher %}<span class="publication-venue"><em>{{ entry.publisher }}</em></span>.{% endif %}
+
+        {% else %}
+          {% if entry.journal %}
+            <span class="publication-venue"><em>{{ entry.journal }}</em></span>.
+          {% elsif entry.booktitle %}
+            <span class="publication-venue"><em>{{ entry.booktitle }}</em></span>.
+          {% elsif entry.school %}
+            <span class="publication-venue"><em>{{ entry.school }}</em></span>.
+          {% elsif entry.publisher %}
+            <span class="publication-venue"><em>{{ entry.publisher }}</em></span>.
+          {% endif %}
+        {% endif %}
+
+        <!-- ==================== LOCATION ==================== -->
+        {% if entry.location %}
+          <span class="publication-location">{{ entry.location }}.</span>
+        {% endif %}
+
+        <!-- ==================== NOTE ==================== -->
+        {% if entry.note %}
+          <span class="publication-note">{{ entry.note | strip }}.</span>
+        {% endif %}
+
+        <!-- ==================== ADDITIONAL INFO ==================== -->
+        {% if entry.additional_info %}
+          <span class="publication-additional-info">{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' | strip }}.</span>
+        {% endif %}
+
+      </div>
+
+
+      <!-- ======================================================= -->
+      <!-- PUBLICATION BUTTONS                                     -->
+      <!-- ======================================================= -->
+
+      <span
+        class="links"
+        style="flex: 0 0 auto; white-space: nowrap; align-self: flex-start; margin-top: 0;"
+      >
 
         {% if entry.award %}
           <a class="award btn btn-sm z-depth-0" role="button">
@@ -204,21 +229,33 @@
 
     </div>
 
-    <!-- Hidden Award -->
+
+    <!-- ========================================================= -->
+    <!-- HIDDEN AWARD                                             -->
+    <!-- ========================================================= -->
+
     {% if entry.award %}
       <div class="award hidden d-print-inline">
         <p>{{ entry.award | markdownify }}</p>
       </div>
     {% endif %}
 
-    <!-- Hidden Abstract -->
+
+    <!-- ========================================================= -->
+    <!-- HIDDEN ABSTRACT                                          -->
+    <!-- ========================================================= -->
+
     {% if entry.abstract %}
       <div class="abstract hidden">
         <p>{{ entry.abstract }}</p>
       </div>
     {% endif %}
 
-    <!-- Hidden BibTeX -->
+
+    <!-- ========================================================= -->
+    <!-- HIDDEN BIBTEX                                            -->
+    <!-- ========================================================= -->
+
     {% if entry.bibtex_show %}
       <div class="bibtex hidden">
         {% highlight bibtex %}
@@ -227,7 +264,11 @@
       </div>
     {% endif %}
 
-    <!-- Hidden Video -->
+
+    <!-- ========================================================= -->
+    <!-- HIDDEN VIDEO                                             -->
+    <!-- ========================================================= -->
+
     {% if entry.video and site.enable_video_embedding %}
       <div class="abstract hidden">
         <div style="text-align: center;">
@@ -238,3 +279,21 @@
 
   </div>
 </div>
+
+<!-- ============================================================= -->
+<!-- MOBILE LAYOUT                                                 -->
+<!-- ============================================================= -->
+
+<style>
+  @media (max-width: 576px) {
+    .publication-citation {
+      flex-direction: column !important;
+      gap: 0.5rem !important;
+    }
+
+    .publication-citation .links {
+      white-space: normal !important;
+    }
+  }
+</style>
+```

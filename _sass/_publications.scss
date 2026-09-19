@@ -182,34 +182,28 @@
   }
 }
 
-.citation,
-.citation-number {
-  color: var(--global-theme-color);
+.publication-citation {
+  line-height: 1.6;
+  margin-bottom: 1rem;
 }
 
-.publication-line {
-  display: flex;
-  align-items: baseline;
-  gap: 0.45rem;
-  flex-wrap: nowrap;
-  white-space: nowrap;
-}
-
-.publication-line .title {
-  font-weight: 500;
-}
-
-.publication-line .author,
-.publication-line .periodical,
-.publication-line .links {
+.publication-authors,
+.publication-year,
+.publication-title,
+.publication-venue {
   display: inline;
 }
 
-.publication-line .links {
-  white-space: nowrap;
+.publication-title {
+  font-weight: 500;
 }
 
 .publication-link {
+  margin-left: 0.35rem;
+  white-space: nowrap;
   text-decoration: none;
 }
 
+.publication-link:hover {
+  text-decoration: underline;
+}

@@ -43,61 +43,9 @@
 
   <div class="publication-citation-text">
 
-    <!-- AUTHORS -->
-    <span class="publication-authors">
-      {% assign author_array_size = entry.author_array | size %}
-      {% assign author_array_limit = author_array_size %}
+<!-- AUTHORS -->
 
-      {% if site.max_author_limit and author_array_size > site.max_author_limit %}
-        {% assign author_array_limit = site.max_author_limit %}
-      {% endif %}
-
-      {% for author in entry.author_array limit: author_array_limit %}
-
-        {% assign author_is_self = false %}
-        {% assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' %}
-        {% assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' %}
-
-        {% if site.scholar.last_name contains author_last_name and site.scholar.first_name contains author.first %}
-          {% assign author_is_self = true %}
-        {% endif %}
-
-        {% assign coauthor_url = null %}
-        {% assign clean_last_name = author_last_name | downcase | remove_accents %}
-
-        {% if site.data.coauthors[clean_last_name] %}
-          {% for coauthor in site.data.coauthors[clean_last_name] %}
-            {% if coauthor.firstname contains author.first %}
-              {% assign coauthor_url = coauthor.url %}
-              {% break %}
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-
-        {% unless forloop.first %}
-          {% if forloop.last %}
-            &amp;
-          {% else %}
-            ,
-          {% endif %}
-        {% endunless %}
-
-        {% if author_is_self %}
-          <em>{{ author_last_html }}, {{ author.first }}</em>
-        {% elsif coauthor_url %}
-          <a href="{{ coauthor_url }}">{{ author_last_html }}, {{ author.first }}</a>
-        {% else %}
-          {{ author_last_html }}, {{ author.first }}
-        {% endif %}
-
-      {% endfor %}
-
-      {% assign more_authors = author_array_size | minus: author_array_limit %}
-
-      {% if more_authors > 0 %}
-        , and {{ more_authors }} more author{% if more_authors > 1 %}s{% endif %}
-      {% endif %}
-    </span>.
+<span class="publication-authors">{% assign author_array_size = entry.author_array | size %}{% assign author_array_limit = author_array_size %}{% if site.max_author_limit and author_array_size > site.max_author_limit %}{% assign author_array_limit = site.max_author_limit %}{% endif %}{% for author in entry.author_array limit: author_array_limit %}{% assign author_is_self = false %}{% assign author_last_name = author.last | regex_replace: '[∗†‡§¶‖&^]', '' %}{% assign author_last_html = author.last | regex_replace: '([∗†‡§¶‖&^]+)', '<sup>\1</sup>' %}{% if site.scholar.last_name contains author_last_name and site.scholar.first_name contains author.first %}{% assign author_is_self = true %}{% endif %}{% assign coauthor_url = null %}{% assign clean_last_name = author_last_name | downcase | remove_accents %}{% if site.data.coauthors[clean_last_name] %}{% for coauthor in site.data.coauthors[clean_last_name] %}{% if coauthor.firstname contains author.first %}{% assign coauthor_url = coauthor.url %}{% break %}{% endif %}{% endfor %}{% endif %}{% unless forloop.first %}{% if forloop.last %} & {% else %}, {% endif %}{% endunless %}{% if forloop.first %}{% if author_is_self %}<em>{{ author_last_html }}, {{ author.first }}</em>{% elsif coauthor_url %}<a href="{{ coauthor_url }}">{{ author_last_html }}, {{ author.first }}</a>{% else %}{{ author_last_html }}, {{ author.first }}{% endif %}{% else %}{% if coauthor_url %}<a href="{{ coauthor_url }}">{{ author.first }} {{ author_last_html }}</a>{% else %}{{ author.first }} {{ author_last_html }}{% endif %}{% endif %}{% endfor %}{% assign more_authors = author_array_size | minus: author_array_limit %}{% if more_authors > 0 %}, and {{ more_authors }} more author{% if more_authors > 1 %}s{% endif %}{% endif %}</span>.
 
     <!-- YEAR -->
     {% if entry.year %}

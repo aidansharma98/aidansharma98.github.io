@@ -191,22 +191,18 @@
   font-weight: 500;
 }
 
-.publication-links {
-  white-space: normal;
+.publication-citation .links {
+  display: inline;
+  margin-left: 0.35rem;
 }
 
-.publication-link {
-  margin-left: 0.4rem;
-  white-space: nowrap;
-  text-decoration: none;
+.publication-citation .links .btn {
+  margin-right: 0.25rem;
+  margin-bottom: 0.2rem;
 }
 
-.publication-link:hover {
-  text-decoration: underline;
-}
-
-.publication-note,
 .publication-location,
+.publication-note,
 .publication-additional-info {
-  margin-left: 0.15rem;
+  display: inline;
 }

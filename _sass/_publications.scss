@@ -186,3 +186,30 @@
 .citation-number {
   color: var(--global-theme-color);
 }
+
+.publication-line {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.publication-line .title {
+  font-weight: 500;
+}
+
+.publication-line .author,
+.publication-line .periodical,
+.publication-line .links {
+  display: inline;
+}
+
+.publication-line .links {
+  white-space: nowrap;
+}
+
+.publication-link {
+  text-decoration: none;
+}
+

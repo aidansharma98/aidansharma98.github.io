@@ -85,18 +85,10 @@
             {% endfor %}
           {% endif %}
 
-          {% unless forloop.first %}
-            {% if forloop.last and author_array_limit == author_array_size %}
-              , and
-            {% else %}
-              ,
-            {% endif %}
-          {% endunless %}
+          {% unless forloop.first %}, {% endunless %}
 
           {% if author_is_self %}
-            <em>
-              {{ author_last_html }}, {{ author.first }}
-            </em>
+            <em>{{ author_last_html }}, {{ author.first }}</em>
           {% elsif coauthor_url %}
             <a href="{{ coauthor_url }}">
               {{ author_last_html }}, {{ author.first }}
@@ -115,10 +107,8 @@
       </span>.
 
       <!-- Year -->
-      {% if entry.year and entry.type != 'misc' %}
-        <span class="publication-year">
-          {{ entry.year }}
-        </span>.
+      {% if entry.year %}
+        <span class="publication-year">{{ entry.year }}</span>.
       {% endif %}
 
       <!-- Title -->
@@ -126,97 +116,245 @@
         {{ entry.title }}
       </span>.
 
-      <!-- Journal / Book / School -->
-      <span class="publication-venue">
+      <!-- Journal / Booktitle / School / Publisher -->
+      {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
+      {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
 
-        {% if entry.type == 'article' %}
-          <em>{{ entry.journal }}</em>
+      {% if entry.type == 'article' %}
+        {% if entry.journal %}
+          <span class="publication-venue"><em>{{ entry.journal }}</em></span>.
+        {% endif %}
 
-        {% elsif entry.type == 'inproceedings' %}
-          <em>{{ entry.booktitle }}</em>
+      {% elsif proceedings contains entry.type %}
+        {% if entry.booktitle %}
+          <span class="publication-venue"><em>{{ entry.booktitle }}</em></span>.
+        {% endif %}
 
-        {% elsif entry.type == 'incollection' %}
-          <em>{{ entry.booktitle }}</em>
+      {% elsif thesis contains entry.type %}
+        {% if entry.school %}
+          <span class="publication-venue"><em>{{ entry.school }}</em></span>.
+        {% endif %}
 
-        {% elsif entry.type == 'book' %}
-          <em>{{ entry.publisher }}</em>
+      {% elsif entry.type == 'book' or entry.type == 'inbook' %}
+        {% if entry.publisher %}
+          <span class="publication-venue"><em>{{ entry.publisher }}</em></span>.
+        {% endif %}
 
-        {% elsif entry.type == 'inbook' %}
-          <em>{{ entry.publisher }}</em>
+      {% else %}
+        {% if entry.journal %}
+          <span class="publication-venue"><em>{{ entry.journal }}</em></span>.
+        {% elsif entry.booktitle %}
+          <span class="publication-venue"><em>{{ entry.booktitle }}</em></span>.
+        {% elsif entry.school %}
+          <span class="publication-venue"><em>{{ entry.school }}</em></span>.
+        {% elsif entry.publisher %}
+          <span class="publication-venue"><em>{{ entry.publisher }}</em></span>.
+        {% endif %}
+      {% endif %}
 
-        {% elsif entry.type == 'phdthesis' %}
-          <em>{{ entry.school }}</em>
+      <!-- Location -->
+      {% if entry.location %}
+        <span class="publication-location">
+          {{ entry.location }}.
+        </span>
+      {% endif %}
 
-        {% elsif entry.type == 'mastersthesis' %}
-          <em>{{ entry.school }}</em>
+      <!-- Note -->
+      {% if entry.note %}
+        <span class="publication-note">
+          {{ entry.note | strip }}.
+        </span>
+      {% endif %}
 
-        {% elsif entry.type == 'thesis' %}
-          <em>{{ entry.school }}</em>
+      <!-- Additional Info -->
+      {% if entry.additional_info %}
+        <span class="publication-additional-info">
+          {{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' | strip }}.
+        </span>
+      {% endif %}
 
-        {% else %}
-          {% if entry.journal %}
-            <em>{{ entry.journal }}</em>
-          {% elsif entry.booktitle %}
-            <em>{{ entry.booktitle }}</em>
-          {% elsif entry.publisher %}
-            <em>{{ entry.publisher }}</em>
+      <!-- Links -->
+      <span class="publication-links">
+
+        {% if entry.award %}
+          <a class="publication-link award" role="button">
+            {% if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif %}
+          </a>
+        {% endif %}
+
+        {% if entry.abstract %}
+          <a class="publication-link abstract" role="button">[ABS]</a>
+        {% endif %}
+
+        <!-- Paper -->
+        {% if entry.pdf %}
+          {% if entry.pdf contains '://' %}
+            <a href="{{ entry.pdf }}"
+               class="publication-link"
+               target="_blank"
+               rel="noopener noreferrer">[PAPER]</a>
+          {% else %}
+            <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}"
+               class="publication-link"
+               target="_blank"
+               rel="noopener noreferrer">[PAPER]</a>
           {% endif %}
         {% endif %}
 
-        {% if entry.volume %}
-          , {{ entry.volume }}
+        <!-- Handout -->
+        {% if entry.handout %}
+          {% if entry.handout contains '://' %}
+            <a href="{{ entry.handout }}"
+               class="publication-link"
+               target="_blank"
+               rel="noopener noreferrer">[HANDOUT]</a>
+          {% else %}
+            <a href="{{ entry.handout | prepend: '/assets/pdf/' | relative_url }}"
+               class="publication-link"
+               target="_blank"
+               rel="noopener noreferrer">[HANDOUT]</a>
+          {% endif %}
         {% endif %}
 
-        {% if entry.number %}
-          ({{ entry.number }})
+        <!-- Slides -->
+        {% if entry.slides %}
+          {% if entry.slides contains '://' %}
+            <a href="{{ entry.slides }}"
+               class="publication-link"
+               target="_blank"
+               rel="noopener noreferrer">[SLIDES]</a>
+          {% else %}
+            <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}"
+               class="publication-link"
+               target="_blank"
+               rel="noopener noreferrer">[SLIDES]</a>
+          {% endif %}
         {% endif %}
 
-        {% if entry.pages %}
-          : {{ entry.pages }}
+        <!-- Draft -->
+        {% if entry.draft %}
+          {% if entry.draft contains '://' %}
+            <a href="{{ entry.draft }}"
+               class="publication-link"
+               target="_blank"
+               rel="noopener noreferrer">[DRAFT]</a>
+          {% else %}
+            <a href="{{ entry.draft | prepend: '/assets/pdf/' | relative_url }}"
+               class="publication-link"
+               target="_blank"
+               rel="noopener noreferrer">[DRAFT]</a>
+          {% endif %}
         {% endif %}
 
-      </span>.
-
-      <!-- PDF -->
-      {% if entry.pdf %}
-        {% if entry.pdf contains '://' %}
-          <a
-            href="{{ entry.pdf }}"
-            class="publication-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >[PDF]</a>
-        {% else %}
-          <a
-            href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}"
-            class="publication-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >[PDF]</a>
+        <!-- DOI -->
+        {% if entry.doi %}
+          <a href="https://doi.org/{{ entry.doi }}"
+             class="publication-link"
+             target="_blank"
+             rel="noopener noreferrer">[DOI]</a>
         {% endif %}
-      {% endif %}
 
-      <!-- DOI -->
-      {% if entry.doi %}
-        <a
-          href="https://doi.org/{{ entry.doi }}"
-          class="publication-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >[DOI]</a>
-      {% endif %}
+        <!-- Code -->
+        {% if entry.code %}
+          <a href="{{ entry.code }}"
+             class="publication-link"
+             target="_blank"
+             rel="noopener noreferrer">[CODE]</a>
+        {% endif %}
 
-      <!-- Code -->
-      {% if entry.code %}
-        <a
-          href="{{ entry.code }}"
-          class="publication-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >[CODE]</a>
-      {% endif %}
+        <!-- HTML -->
+        {% if entry.html %}
+          {% if entry.html contains '://' %}
+            <a href="{{ entry.html }}"
+               class="publication-link"
+               target="_blank"
+               rel="noopener noreferrer">[HTML]</a>
+          {% else %}
+            <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}"
+               class="publication-link"
+               target="_blank"
+               rel="noopener noreferrer">[HTML]</a>
+          {% endif %}
+        {% endif %}
+
+        <!-- Poster -->
+        {% if entry.poster %}
+          {% if entry.poster contains '://' %}
+            <a href="{{ entry.poster }}"
+               class="publication-link"
+               target="_blank"
+               rel="noopener noreferrer">[POSTER]</a>
+          {% else %}
+            <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}"
+               class="publication-link"
+               target="_blank"
+               rel="noopener noreferrer">[POSTER]</a>
+          {% endif %}
+        {% endif %}
+
+        <!-- Video -->
+        {% if entry.video %}
+          {% if site.enable_video_embedding %}
+            <a class="publication-link abstract" role="button">[VIDEO]</a>
+          {% else %}
+            <a href="{{ entry.video }}"
+               class="publication-link"
+               target="_blank"
+               rel="noopener noreferrer">[VIDEO]</a>
+          {% endif %}
+        {% endif %}
+
+        <!-- Blog -->
+        {% if entry.blog %}
+          <a href="{{ entry.blog }}"
+             class="publication-link"
+             target="_blank"
+             rel="noopener noreferrer">[BLOG]</a>
+        {% endif %}
+
+        <!-- Website -->
+        {% if entry.website %}
+          <a href="{{ entry.website }}"
+             class="publication-link"
+             target="_blank"
+             rel="noopener noreferrer">[WEBSITE]</a>
+        {% endif %}
+
+      </span>
 
     </div>
+
+    <!-- Hidden Award -->
+    {% if entry.award %}
+      <div class="award hidden d-print-inline">
+        <p>{{ entry.award | markdownify }}</p>
+      </div>
+    {% endif %}
+
+    <!-- Hidden Abstract -->
+    {% if entry.abstract %}
+      <div class="abstract hidden">
+        <p>{{ entry.abstract }}</p>
+      </div>
+    {% endif %}
+
+    <!-- Hidden BibTeX -->
+    {% if entry.bibtex_show %}
+      <div class="bibtex hidden">
+        {% highlight bibtex %}
+        {{- entry.bibtex | hideCustomBibtex -}}
+        {% endhighlight %}
+      </div>
+    {% endif %}
+
+    <!-- Hidden Video -->
+    {% if entry.video and site.enable_video_embedding %}
+      <div class="abstract hidden">
+        <div style="text-align: center;">
+          {% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}
+        </div>
+      </div>
+    {% endif %}
 
   </div>
 </div>

@@ -1,3 +1,4 @@
+```scss
 /*******************************************************************************
  * Publication and bibliography styles
  ******************************************************************************/
@@ -113,6 +114,7 @@
             border-color: var(--global-theme-color);
           }
         }
+
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
@@ -120,6 +122,7 @@
 
       .badges {
         padding-bottom: 0.5rem;
+
         span {
           display: inline-block;
           color: v.$black-color;
@@ -142,67 +145,5 @@
         -moz-transition: 0.15s ease;
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
-
-        p {
-          line-height: 1.4em;
-          margin: 10px;
-        }
-
-        pre {
-          font-size: 1em;
-          line-height: 1.4em;
-          padding: 10px;
-        }
-      }
-
-      .hidden.open {
-        max-height: 100em;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
-      }
-
-      div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
-      }
-
-      div.abstract.hidden.open {
-        border-color: var(--global-text-color);
-      }
-    }
-    div.award.hidden {
-      border: dashed 1px var(--global-bg-color);
-    }
-    div.award.hidden.open {
-      border-color: var(--global-highlight-color);
-    }
-  }
-}
-
-.publication-citation {
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
-
-.publication-title {
-  font-weight: 500;
-}
-
-.publication-citation .links {
-  display: inline;
-  margin-left: 0.35rem;
-}
-
-.publication-citation .links .btn {
-  margin-right: 0.25rem;
-  margin-bottom: 0.2rem;
-}
-
-.publication-location,
-.publication-note,
-.publication-additional-info {
-  display: inline;
-}
+        transition: al
+```

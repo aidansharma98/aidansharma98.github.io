@@ -88,6 +88,12 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Validate SCSS source files 🧪
+        run: |
+          if grep -R --line-number '```' _sass/*.scss; then
+            echo "Error: Markdown code fences found in SCSS source files."
+            exit 1
+          fi
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick

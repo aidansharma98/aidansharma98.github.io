@@ -72,14 +72,7 @@ li {
 
   /*
    * Main publication layout
-   *
-   * The citation fills the available space.
-   * The single button is pinned to the far right.
    */
-  .publication-content {
-    width: 100%;
-  }
-
   .publication-citation {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
@@ -90,7 +83,6 @@ li {
 
   .publication-citation-text {
     min-width: 0;
-    line-height: 1.5;
   }
 
   /*
@@ -130,36 +122,39 @@ li {
   .publication-note,
   .publication-location,
   .publication-additional-info {
-    margin-left: 0.15rem;
+    margin-left: 0.25rem;
   }
 
   /*
-   * Single publication button
+   * Buttons
    */
-  .publication-links {
+  .links {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: flex-end;
-    flex: 0 0 auto;
+    gap: 0.35rem;
+    flex-shrink: 0;
     white-space: nowrap;
-    margin: 0;
-    padding: 0;
-  }
 
-  .publication-links a.btn {
-    color: var(--global-text-color);
-    border: 1px solid var(--global-text-color);
-    padding: 0.25rem 1rem;
-    margin: 0;
+    a.btn {
+      color: var(--global-text-color);
+      border: 1px solid var(--global-text-color);
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+      margin-left: 0;
 
-    &:hover {
-      color: var(--global-theme-color);
-      border-color: var(--global-theme-color);
+      &:hover {
+        color: var(--global-theme-color);
+        border-color: var(--global-theme-color);
+      }
     }
-  }
 
-  .publication-links a.award.btn {
-    border-color: var(--global-highlight-color);
+    a.award.btn {
+      border-color: var(--global-highlight-color);
+    }
   }
 
   /*
@@ -186,7 +181,7 @@ li {
    */
   .hidden {
     font-size: 0.875rem;
-    max-height: 0;
+    max-height: 0px;
     overflow: hidden;
     text-align: justify;
     transition: all 0.15s ease;
@@ -205,6 +200,7 @@ li {
 
   .hidden.open {
     max-height: 100em;
+    transition: all 0.15s ease;
   }
 
   div.abstract.hidden {
@@ -217,17 +213,16 @@ li {
 
   /*
    * Mobile
-   *
-   * Citation first, button underneath.
    */
   @media (max-width: 768px) {
     .publication-citation {
       display: block;
     }
 
-    .publication-links {
+    .links {
       justify-content: flex-start;
       margin-top: 0.75rem;
+      white-space: normal;
     }
   }
 }

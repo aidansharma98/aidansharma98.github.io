@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /assets/pdf/Sharma_Sept.pdf
+permalink: /assets/pdf/Sharma_Sept26.pdf
 title: CV
 nav: true
 nav_order: 5

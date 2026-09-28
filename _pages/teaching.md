@@ -27,28 +27,25 @@ Kazakh reciprocals are formed from *bir* - the numeral one. One way to form a re
 
     <div class="ling-line">
       <div class="ling-word">
-        <span class="ling-form">Dia</span>
-        <span class="ling-gloss">3SG</span>
+        <span class="ling-form">O-lar</span>
+        <span class="ling-gloss">3-PL</span>
       </div>
 
       <div class="ling-word">
-        <span class="ling-form">menyanyi</span>
-        <span class="ling-gloss">sing</span>
+        <span class="ling-form">bir-bir-i-n</span>
+        <span class="ling-gloss">one-one-3-ACC</span>
       </div>
 
       <div class="ling-word">
-        <span class="ling-form">dengan</span>
-        <span class="ling-gloss">with</span>
+        <span class="ling-form">kör-di</span>
+        <span class="ling-gloss">see-PST</span>
       </div>
 
-      <div class="ling-word">
-        <span class="ling-form">keras</span>
-        <span class="ling-gloss">loud</span>
       </div>
     </div>
 
     <div class="ling-translation">
-      “He/she sings loudly.”
+      “They saw each other.”
     </div>
 
   </div>

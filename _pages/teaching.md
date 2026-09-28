@@ -17,8 +17,18 @@ Magahi (ISO: mag) is an Eastern Indo-Aryan language primarily spoken in the Indi
 
 Kazakh (ISO: kaz) is a Turkic language primarily spoken in Kazakhstan. My interest in Kazakh began during my time studying Russian in Central Asia as part of UCLA's Russian Flagship Program. I went back to Kazakhstan for fieldwork in the summer of 2025, as part of a group of Rutgers students led by Adam McCollum. My research on Kazakh has primarily looked at the following 3 topics:
 
+<h2>Say Complementation (with Ariela Ye)</h2>
+
+
+
 <h2>Case Copying Reciprocals (with Merlin Balkhash)</h2>
-Kazakh reciprocals are formed from *bir* - the numeral one. One way to form Kazakh reciprocals are formed comes from doubling *bir*, adding an agreement suffix matching the person of the antecedent, and adding the appropriate case marker.
+
+<p>
+Kazakh reciprocals are formed from <i>bir</i> — the numeral one. One way
+to form Kazakh reciprocals is by doubling <i>bir</i>, adding an agreement
+suffix matching the person of the antecedent, and adding the appropriate
+case marker.
+</p>
 
 <div class="ling-example">
   <div class="ling-number">(1)</div>
@@ -26,6 +36,7 @@ Kazakh reciprocals are formed from *bir* - the numeral one. One way to form Kaza
   <div class="ling-content">
 
     <div class="ling-line">
+
       <div class="ling-word">
         <span class="ling-form">O-lar</span>
         <span class="ling-gloss">3-PL</span>
@@ -41,7 +52,6 @@ Kazakh reciprocals are formed from *bir* - the numeral one. One way to form Kaza
         <span class="ling-gloss">see-PST</span>
       </div>
 
-      </div>
     </div>
 
     <div class="ling-translation">
@@ -51,14 +61,20 @@ Kazakh reciprocals are formed from *bir* - the numeral one. One way to form Kaza
   </div>
 </div>
 
-But Kazakh reciprocals can also be formed from two separate *bir*s, each with their own agreement suffix. One then takes the case marker the argument "each other" is expected to get, and the other matches the antecedent in case.
+<p>
+But Kazakh reciprocals can also be formed from two separate <i>bir</i>s,
+each with their own agreement suffix. One then takes the case marker the
+argument "each other" is expected to get, and the other matches the
+antecedent in case.
+</p>
 
 <div class="ling-example">
-  <div class="ling-number">(1)</div>
+  <div class="ling-number">(2)</div>
 
   <div class="ling-content">
 
     <div class="ling-line">
+
       <div class="ling-word">
         <span class="ling-form">O-lar</span>
         <span class="ling-gloss">3-PL</span>
@@ -79,7 +95,6 @@ But Kazakh reciprocals can also be formed from two separate *bir*s, each with th
         <span class="ling-gloss">see-PST</span>
       </div>
 
-      </div>
     </div>
 
     <div class="ling-translation">
@@ -88,7 +103,6 @@ But Kazakh reciprocals can also be formed from two separate *bir*s, each with th
 
   </div>
 </div>
-
 
 
 

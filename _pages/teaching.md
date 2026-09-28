@@ -3,7 +3,7 @@ layout: page
 permalink: /fieldwork/
 title: Fieldwork
 description: 
-nav: false
+nav: true
 nav_order: 4
 ---
 
@@ -24,21 +24,19 @@ Kazakh reciprocals are formed from *bir* - the numeral one. One way to form a re
   <div class="example-number">(1)</div>
 
   <div class="gloss-line">
-    <span>Dia</span>
-    <span>menyanyi</span>
-    <span>dengan</span>
-    <span>keras</span>
+    <span>O-lar</span>
+    <span>bir-bir-i-n</span>
+    <span>kör-di</span>
   </div>
 
   <div class="gloss-line gloss">
-    <span>3SG</span>
-    <span>sing</span>
-    <span>with</span>
-    <span>loud</span>
+    <span>3-PL</span>
+    <span>one-one-3-ACC</span>
+    <span>see-PST</span>
   </div>
 
   <div class="translation">
-    “He/she sings loudly.”
+    “They saw each other.”
   </div>
 </div>
 

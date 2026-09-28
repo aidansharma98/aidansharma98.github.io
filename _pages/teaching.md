@@ -40,6 +40,28 @@ Kazakh reciprocals are formed from *bir* - the numeral one. One way to form a re
   </div>
 </div>
 
+<div class="ling-example">
+  <div class="example-number">(1)</div>
+
+  <div class="gloss-line">
+    <span>O-lar</span>
+    <span>bir-i-n</span>
+    <span>bir-i</span>
+    <span>kör-di</span>
+  </div>
+
+  <div class="gloss-line gloss">
+    <span>3-PL</span>
+    <span>one-3-ACC</span>
+    <span>one-3</span>
+    <span>see-PST</span>
+  </div>
+
+  <div class="translation">
+    “They saw each other.”
+  </div>
+</div>
+
 
 
 <h1>Banjara</h1>

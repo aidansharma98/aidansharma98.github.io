@@ -21,46 +21,36 @@ Kazakh (ISO: kaz) is a Turkic language primarily spoken in Kazakhstan. My intere
 Kazakh reciprocals are formed from *bir* - the numeral one. One way to form a reciprocal with *bir* is to double it, put an 
 
 <div class="ling-example">
-  <div class="example-number">(1)</div>
+  <div class="ling-number">(1)</div>
 
-  <div class="gloss-line">
-    <span>O-lar</span>
-    <span>bir-bir-i-n</span>
-    <span>kör-di</span>
-  </div>
+  <div class="ling-content">
 
-  <div class="gloss-line gloss">
-    <span>3-PL</span>
-    <span>one-one-3-ACC</span>
-    <span>see-PST</span>
-  </div>
+    <div class="ling-line">
+      <div class="ling-word">
+        <span class="ling-form">O-lar</span>
+        <span class="ling-gloss">3-PL</span>
+      </div>
 
-  <div class="translation">
-    “They saw each other.”
-  </div>
-</div>
+      <div class="ling-word">
+        <span class="ling-form">bir-bir-i-n</span>
+        <span class="ling-gloss">one-one-3-ACC</span>
+      </div>
 
-<div class="ling-example">
-  <div class="example-number">(1)</div>
+      <div class="ling-word">
+        <span class="ling-form">kör-di</span>
+        <span class="ling-gloss">see-PST</span>
+      </div>
+      
+      </div>
+    </div>
 
-  <div class="gloss-line">
-    <span>O-lar</span>
-    <span>bir-i-n</span>
-    <span>bir-i</span>
-    <span>kör-di</span>
-  </div>
+    <div class="ling-translation">
+      “They saw each other.”
+    </div>
 
-  <div class="gloss-line gloss">
-    <span>3-PL</span>
-    <span>one-3-ACC</span>
-    <span>one-3</span>
-    <span>see-PST</span>
-  </div>
-
-  <div class="translation">
-    “They saw each other.”
   </div>
 </div>
+
 
 
 

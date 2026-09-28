@@ -3,23 +3,22 @@ layout: page
 permalink: /fieldwork/
 title: Fieldwork
 description: 
-nav: false
+nav: true
 nav_order: 4
 calendar: false
 ---
 
-Most of my research is based on data I've collected myself. 
+Most of my research is based on fieldwork data. 
 
-### Magahi
+<h1>Magahi</h1>
 
-I conduct fieldwork on [Language 1], spoken in [location/community].
-My research focuses on [phonology / syntax / morphology / etc.].
+Magahi (ISO: mag)
 
-### Kazakh
+<h1>Kazakh</h1>
 
-I also work on [Language 2], spoken in [location/community].
-My work examines [brief description of research interests].
+Kazakh (ISO: kaz)
 
-### Banjara
 
-[Description of your work with this language.]
+<h1>Banjara</h1>
+
+Banjara (ISO: lmn)

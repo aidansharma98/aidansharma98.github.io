@@ -3,11 +3,24 @@ layout: page
 permalink: /fieldwork/
 title: Field Work
 description: 
-nav: false
+nav: true
 nav_order: 6
 calendar: false
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Languages
 
+### Language 1
+
+I conduct fieldwork on [Language 1], spoken in [location/community].
+My research focuses on [phonology / syntax / morphology / etc.].
+
+### Language 2
+
+I also work on [Language 2], spoken in [location/community].
+My work examines [brief description of research interests].
+
+### Language 3
+
+[Description of your work with this language.]
 {% include courses.liquid %}

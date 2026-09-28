@@ -19,7 +19,7 @@ Kazakh (ISO: kaz) is a Turkic language primarily spoken in Kazakhstan. My intere
 
 <h2>Say Complementation (with Ariela Ye)</h2>
 
-<p>Kazakh embedded clauses can be introduced by the complementizer <i>dep<\i>, which is a converbial form of the verb <i>dep<\i> "say". Interestingly, while <i>dep<\i> also has a converb use, the <i>dep<\i> that introduces embedded clauses can also behave like a true complementizer. For example, while *deu* does not admit non-human subjects as a speech verb, <i>dep<\i> can introduce an embedded clause under a matrix clause with a non-human subject. </p>
+<p>Kazakh embedded clauses can be introduced by the complementizer <i>dep</i>, which is a converbial form of the verb <i>dep</i> "say". Interestingly, while <i>dep</i> also has a converb use, the <i>dep</i> that introduces embedded clauses can also behave like a true complementizer. For example, while *deu* does not admit non-human subjects as a speech verb, <i>dep</i> can introduce an embedded clause under a matrix clause with a non-human subject. </p>
 
 <div class="ling-example">
   <div class="ling-number">(1)</div>
@@ -62,7 +62,7 @@ Kazakh (ISO: kaz) is a Turkic language primarily spoken in Kazakhstan. My intere
    </div>
 </div>
 
-<p>You can check out our LSA proceedings paper on <i>dep<\i> here: </p>
+<p>You can check out our LSA proceedings paper on <i>dep</i> here: </p>
 
 
 <h2>Case Copying Reciprocals (with Merlin Balkhash)</h2>

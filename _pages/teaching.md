@@ -19,6 +19,47 @@ Kazakh (ISO: kaz) is a Turkic language primarily spoken in Kazakhstan. My intere
 
 <h2>Say Complementation (with Ariela Ye)</h2>
 
+<p>Kazakh embedded clauses can be introduced by the complementizer *dep*, which is a converbial form of the verb *deu* "say". Interestingly, while *dep* also has a converb use, the *dep* that introduces embedded clauses can also behave like a true complementizer. For example, while *deu* does not admit non-human subjects as a speech verb, *dep* can introduce an embedded clause under a matrix clause with a non-human subject. </p>
+
+<div class="ling-example">
+  <div class="ling-number">(1)</div>
+
+  <div class="ling-content">
+
+    <div class="ling-line">
+
+      <div class="ling-word">
+        <span class="ling-form">Mysyq</span>
+        <span class="ling-gloss">cat</span>
+      </div>
+
+      <div class="ling-word">
+        <span class="ling-form">on-y</span>
+        <span class="ling-gloss">3SG-ACC</span>
+      </div>
+
+      <div class="ling-word">
+        <span class="ling-form">tamaqtan-dyr-ma-dy</span>
+        <span class="ling-gloss">eat-CAUS-3-NEG-PST</span>
+      </div>
+
+      <div class="ling-word">
+        <span class="ling-form">dep</span>
+        <span class="ling-gloss">DEP</span>
+      </div>
+
+      <div class="ling-word">
+        <span class="ling-form">mïyawla-dy</span>
+        <span class="ling-gloss">meow-PST</span>
+      </div>
+
+    </div>
+
+    <div class="ling-translation">
+      “The cat meowed that you didn't feed it.”
+    </div>
+
+<p>You can check out our LSA proceedings paper on *dep* here: </p>
 
 
 <h2>Case Copying Reciprocals (with Merlin Balkhash)</h2>
@@ -104,6 +145,7 @@ antecedent in case.
   </div>
 </div>
 
+<p>You can check out our most recent handout on this topic here: </p>
 
 
 <h1>Banjara</h1>

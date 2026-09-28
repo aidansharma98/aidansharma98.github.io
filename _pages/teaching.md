@@ -62,7 +62,7 @@ case marker.
 </div>
 
 <p>
-But Kazakh reciprocals can also be formed from two separate <i>bir</i>s,
+But Kazakh reciprocals can also be formed from two separate instances of <i>bir</i>,
 each with their own agreement suffix. One then takes the case marker the
 argument "each other" is expected to get, and the other matches the
 antecedent in case.

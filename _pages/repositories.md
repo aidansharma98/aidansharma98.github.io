@@ -1,47 +1,27 @@
 ---
 layout: page
-permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+permalink: /research/
+title: Research
+description:
 nav: false
-nav_order: 4
+nav_order: 3
 ---
 
-{% if site.data.repositories.github_users %}
+Most of my research is based on data I've collected myself. 
 
-## GitHub users
+### Definiteness
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
+I conduct fieldwork on [Language 1], spoken in [location/community].
+My research focuses on [phonology / syntax / morphology / etc.].
 
----
+### Honorificity
 
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
+I also work on [Language 2], spoken in [location/community].
+My work examines [brief description of research interests].
 
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
+### Quantifier Particles
 
----
+[Description of your work with this language.]
 
-{% endfor %}
-{% endif %}
-{% endif %}
 
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+### Vowel Reduction

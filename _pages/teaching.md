@@ -20,6 +20,29 @@ Kazakh (ISO: kaz) is a Turkic language primarily spoken in Kazakhstan. My intere
 <h2>Case Copying Reciprocals (with Merlin Balkhash)</h2>
 Kazakh reciprocals are formed from *bir* - the numeral one. One way to form a reciprocal with *bir* is to double it, put an 
 
+<div class="ling-example">
+  <div class="example-number">(1)</div>
+
+  <div class="gloss-line">
+    <span>Dia</span>
+    <span>menyanyi</span>
+    <span>dengan</span>
+    <span>keras</span>
+  </div>
+
+  <div class="gloss-line gloss">
+    <span>3SG</span>
+    <span>sing</span>
+    <span>with</span>
+    <span>loud</span>
+  </div>
+
+  <div class="translation">
+    “He/she sings loudly.”
+  </div>
+</div>
+
+
 
 <h1>Banjara</h1>
 

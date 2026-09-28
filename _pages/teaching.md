@@ -18,7 +18,7 @@ Magahi (ISO: mag) is an Eastern Indo-Aryan language primarily spoken in the Indi
 Kazakh (ISO: kaz) is a Turkic language primarily spoken in Kazakhstan. My interest in Kazakh began during my time studying Russian in Central Asia as part of UCLA's Russian Flagship Program. I went back to Kazakhstan for fieldwork in the summer of 2025, as part of a group of Rutgers students led by Adam McCollum. My research on Kazakh has primarily looked at the following 3 topics:
 
 <h2>Case Copying Reciprocals (with Merlin Balkhash)</h2>
-Kazakh reciprocals are formed from *bir* - the numeral one. One way to form a reciprocal with *bir* is to double it, put an 
+Kazakh reciprocals are formed from *bir* - the numeral one. One way to form Kazakh reciprocals are formed comes from doubling *bir*, adding an agreement suffix matching the person of the antecedent, and adding the appropriate case marker.
 
 <div class="ling-example">
   <div class="ling-number">(1)</div>
@@ -34,6 +34,44 @@ Kazakh reciprocals are formed from *bir* - the numeral one. One way to form a re
       <div class="ling-word">
         <span class="ling-form">bir-bir-i-n</span>
         <span class="ling-gloss">one-one-3-ACC</span>
+      </div>
+
+      <div class="ling-word">
+        <span class="ling-form">kör-di</span>
+        <span class="ling-gloss">see-PST</span>
+      </div>
+
+      </div>
+    </div>
+
+    <div class="ling-translation">
+      “They saw each other.”
+    </div>
+
+  </div>
+</div>
+
+But Kazakh reciprocals can also be formed from two separate *bir*s, each with their own agreement suffix. One then takes the case marker the argument "each other" is expected to get, and the other matches the antecedent in case.
+
+<div class="ling-example">
+  <div class="ling-number">(1)</div>
+
+  <div class="ling-content">
+
+    <div class="ling-line">
+      <div class="ling-word">
+        <span class="ling-form">O-lar</span>
+        <span class="ling-gloss">3-PL</span>
+      </div>
+
+      <div class="ling-word">
+        <span class="ling-form">bir-i-n</span>
+        <span class="ling-gloss">one-3-ACC</span>
+      </div>
+
+      <div class="ling-word">
+        <span class="ling-form">bir-i</span>
+        <span class="ling-gloss">one-3</span>
       </div>
 
       <div class="ling-word">

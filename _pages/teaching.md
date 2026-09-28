@@ -11,11 +11,14 @@ Most of my research is based on fieldwork data.
 
 <h1>Magahi</h1>
 
-Magahi (ISO: mag)
+Magahi (ISO: mag) is an Eastern Indo-Aryan language primarily spoken in the Indian state of Bihar. My research on Magahi has primarily focused on the syntax and semantics of definite noun phrases. In particular, I'm interested in the  
 
 <h1>Kazakh</h1>
 
-Kazakh (ISO: kaz)
+Kazakh (ISO: kaz) is a Turkic language primarily spoken in Kazakhstan. My interest in Kazakh began during my time studying Russian in Central Asia as part of UCLA's Russian Flagship Program. I went back to Kazakhstan for fieldwork in the summer of 2025, as part of a group of Rutgers students led by Adam McCollum. My research on Kazakh has primarily looked at the following 3 topics:
+
+<h2>Case Copying Reciprocals (with Merlin Balkhash)</h2>
+Kazakh reciprocals are formed from *bir* - the numeral one. One way to form a reciprocal with *bir* is to double it, put an 
 
 
 <h1>Banjara</h1>

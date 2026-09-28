@@ -3,9 +3,8 @@ layout: page
 permalink: /fieldwork/
 title: Fieldwork
 description: 
-nav: true
+nav: false
 nav_order: 4
-calendar: false
 ---
 
 Most of my research is based on fieldwork data. 

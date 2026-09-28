@@ -1,14 +1,14 @@
 ---
 layout: page
 permalink: /fieldwork/
-title: Field Work
+title: Fieldwork
 description: 
-nav: true
+nav: false
 nav_order: 6
 calendar: false
 ---
 
-## Languages
+Most of my research is based on data I've collected myself. 
 
 ### Language 1
 
@@ -23,4 +23,3 @@ My work examines [brief description of research interests].
 ### Language 3
 
 [Description of your work with this language.]
-{% include courses.liquid %}

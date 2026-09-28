@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /teaching/
+permalink: /fieldwork/
 title: Field Work
 description: 
 nav: false

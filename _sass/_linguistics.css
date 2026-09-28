@@ -1,24 +1,44 @@
 .ling-example {
+  display: grid;
+  grid-template-columns: 2.5rem auto;
+  column-gap: 0.5rem;
   margin: 1.5rem 0;
+  overflow-x: auto;
 }
 
-.gloss-line {
+.ling-number {
+  grid-column: 1;
+  align-self: start;
+}
+
+.ling-content {
+  grid-column: 2;
+  min-width: max-content;
+}
+
+.ling-line {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  margin-left: 2rem;
+  align-items: flex-start;
+  gap: 1.25rem;
 }
 
-.gloss-line span {
-  display: inline-block;
+.ling-word {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  white-space: nowrap;
 }
 
-.gloss-line.gloss {
+.ling-form {
+  line-height: 1.4;
+}
+
+.ling-gloss {
+  line-height: 1.4;
   font-size: 0.9em;
 }
 
-.translation {
+.ling-translation {
   margin-top: 0.5rem;
-  margin-left: 2rem;
   font-style: italic;
 }

@@ -25,7 +25,11 @@
   white-space: nowrap;
 }
 
-.ling-form,
+.ling-form {
+  display: block;
+  font-family: "Noto Sans", sans-serif;
+}
+
 .ling-gloss {
   display: block;
 }

@@ -319,7 +319,7 @@ Interestingly, when <i>-i</i> is used with numerals, you get a maximal reading.
     </div>
 
     <div class="ling-translation">
-      “the three boys”
+      “(all) the three boys”
     </div>
 
   </div>

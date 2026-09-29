@@ -9,7 +9,7 @@ nav_order: 4
 
 <div class="fieldwork">
   
-Most of my research is based on fieldwork data. 
+Most of my research is based on fieldwork data. You can read about some of the languages and projects I'm currently working on below.
 
 <h1>Magahi</h1>
 

@@ -46,7 +46,7 @@ Magahi (ISO: mag) is an Eastern Indo-Aryan language primarily spoken in the Indi
 <p>Usually <i>-kā/-ki</i> are described as only occurring with adjectives in definite noun phrases, but they can occur in indefinite noun phrases (again with classifiers) too. </p>
 
 <div class="ling-example">
-  <div class="ling-number">(1)</div>
+  <div class="ling-number">(2)</div>
 
   <div class="ling-content">
 
@@ -102,7 +102,7 @@ Magahi (ISO: mag) is an Eastern Indo-Aryan language primarily spoken in the Indi
 <p>Besides this <i>anti-uniqueness</i> effect, <i>-wā</i> also comes with a non-honorific interpretation. </p>
 
 <div class="ling-example">
-  <div class="ling-number">(1)</div>
+  <div class="ling-number">(2)</div>
 
   <div class="ling-content">
 
@@ -256,7 +256,136 @@ Magahi (ISO: mag) is an Eastern Indo-Aryan language primarily spoken in the Indi
 
 <h1>Banjara</h1>
 
-<p>Banjara (ISO: lmn) is a Western Indo-Aryan language spoken by the Banjara, a group of traditional nomadic people in India. My work on Banjara began in a Spring 2026 field methods class taught at Rutgers by <a href="https://ryanwaltersmith.wixsite.com/home">Ryan Walter Smith</a>. A group of us at Rutgers have continued to work on Banjara. Within Banjara, my primary interest is the use of multi-functional quantifier particles.</p>
+<p>Banjara (ISO: lmn) is a Western Indo-Aryan language spoken by the Banjara, a group of traditional nomadic people in India. My work on Banjara began in a Spring 2026 field methods class taught at Rutgers by <a href="https://ryanwaltersmith.wixsite.com/home">Ryan Walter Smith</a>, and a group of us at Rutgers have continued to work on Banjara. Within Banjara, my primary interest is the use of multi-functional quantifier particles.</p>
 
 
 <h2>Additive Morphemes</h2>
+
+<p>In Banjara, the morpheme <i>-i</i> can be interpreted as additive "also" or as scalar "even", among other uses. </p>
+
+<div class="ling-example">
+  <div class="ling-number">(1)</div>
+
+  <div class="ling-content">
+
+    <div class="ling-line">
+
+      <div class="ling-word">
+        <span class="ling-form">u-i</span>
+        <span class="ling-gloss">3SG-ADD</span>
+      </div>
+
+      <div class="ling-word">
+        <span class="ling-form">g-o</span>
+        <span class="ling-gloss">go-M.SG</span>
+      </div>
+
+      <div class="ling-word">
+        <span class="ling-form">ch-a</span>
+        <span class="ling-gloss">COP.PRS-3</span>
+      </div>
+
+    </div>
+
+    <div class="ling-translation">
+      “He also went.” or "Even he went"
+    </div>
+
+  </div>
+</div>
+
+<p>Interestingly, when <i>-i</i> is used with numerals, you get a maximal reading. </p>
+
+
+<div class="ling-example">
+  <div class="ling-number">(2)</div>
+
+  <div class="ling-content">
+
+    <div class="ling-line">
+
+      <div class="ling-word">
+        <span class="ling-form">tin-i</span>
+        <span class="ling-gloss">three-ADD</span>
+      </div>
+
+      <div class="ling-word">
+        <span class="ling-form">cicāppar</span>
+        <span class="ling-gloss">go-M.SG</span>
+      </div>
+
+    </div>
+
+    <div class="ling-translation">
+      “the three boys”
+    </div>
+
+  </div>
+</div>
+
+<p>For how you can derive this maximal use in a way consistent with deriving the "also" and "even" uses, see my MACSIM poster (but note while the poster is on the same phenomenon, the data used in the poster is from Marathi, not Banjara): . </p>
+
+<h2>Disjunctive Morphemes</h2>
+
+<p>In Banjara, the morpheme <i>ko</i> can mark disjuncts to form a disjunction.</p>
+
+<div class="ling-example">
+  <div class="ling-number">(2)</div>
+
+  <div class="ling-content">
+
+    <div class="ling-line">
+
+      <div class="ling-word">
+        <span class="ling-form">Balyā</span>
+        <span class="ling-gloss">Balya</span>
+      </div>
+
+      <div class="ling-word">
+        <span class="ling-form">ko</span>
+        <span class="ling-gloss">KO</span>
+      </div>
+
+      <div class="ling-word">
+        <span class="ling-form">Khimyā-ko</span>
+        <span class="ling-gloss">Khimya-KO</span>
+      </div>
+
+      <div class="ling-word">
+        <span class="ling-form">ko</span>
+        <span class="ling-gloss">KO</span>
+      </div>
+
+    </div>
+
+    <div class="ling-translation">
+      “Balya or Khimya”
+    </div>
+
+  </div>
+</div>
+
+
+<p>Besides the disjunctive use, <i>ko</i> can combine with <i>wh</i>-items to form indefinites, among other uses</p>
+
+<div class="ling-example">
+  <div class="ling-number">(2)</div>
+
+  <div class="ling-content">
+
+    <div class="ling-line">
+
+      <div class="ling-word">
+        <span class="ling-form">kuṇ-ko</span>
+        <span class="ling-gloss">who-KO</span>
+      </div>
+
+    <div class="ling-translation">
+      “someone”
+    </div>
+
+  </div>
+</div>
+
+
+<p>These varied uses raise an interesting question for what a unified semantics for <i>ko</i> looks like. </p>

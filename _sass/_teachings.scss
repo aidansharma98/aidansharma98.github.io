@@ -29,29 +29,29 @@
   /*
    * Buttons
    */
-  .fieldwork-links {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 0.35rem;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
+.fieldwork-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
 
-    a.btn {
-      color: var(--global-text-color);
-      border: 1px solid var(--global-text-color);
-      padding-left: 1rem;
-      padding-right: 1rem;
-      padding-top: 0.25rem;
-      padding-bottom: 0.25rem;
-      margin-left: 0;
+.fieldwork-links a.btn {
+  color: var(--global-text-color);
+  border: 1px solid var(--global-text-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-left: 0;
+}
 
-      &:hover {
-        color: var(--global-theme-color);
-        border-color: var(--global-theme-color);
-      }
-    }
-  }
+.fieldwork-links a.btn:hover {
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+}
 
   .fieldwork {
   font-family: var(--global-font-family);

@@ -27,7 +27,7 @@ In noun phrases containing <i>-wā</i>, adjectives are usually marked with the s
     <div class="ling-line">
 
       <div class="ling-word">
-        <span class="ling-form">baṛ-k\=a-wā/span>
+        <span class="ling-form">baṛ-k\=a-wā</span>
         <span class="ling-gloss">big-DET-CLF.DEF</span>
       </div>
 
@@ -55,7 +55,7 @@ Usually <i>-kā/-ki</i> are described as only occurring with adjectives in defin
     <div class="ling-line">
 
       <div class="ling-word">
-        <span class="ling-form">baṛ-k\=a-go/span>
+        <span class="ling-form">baṛ-k\=a-go</span>
         <span class="ling-gloss">big-DET-CLF.INDF</span>
       </div>
 
@@ -88,7 +88,7 @@ Magahi has a definite suffix <i>-wā</i>, but also allows definite bare nouns. A
     <div class="ling-line">
 
       <div class="ling-word">
-        <span class="ling-form">suraj-#wā/span>
+        <span class="ling-form">suraj-#wā</span>
         <span class="ling-gloss">suraj-#DEF</span>
       </div>
 
@@ -111,7 +111,7 @@ Besides this <i>anti-uniqueness</i> effect, <i>-wā</i> also comes with a non-ho
     <div class="ling-line">
 
       <div class="ling-word">
-        <span class="ling-form">masṭar-wā/span>
+        <span class="ling-form">masṭar-wā</span>
         <span class="ling-gloss">teacher-DEF</span>
       </div>
 

@@ -27,7 +27,7 @@ In noun phrases containing <i>-wā</i>, adjectives are usually marked with the s
     <div class="ling-line">
 
       <div class="ling-word">
-        <span class="ling-form">baṛ-k\=a-wā</span>
+        <span class="ling-form">baṛ-ka-wā</span>
         <span class="ling-gloss">big-DET-CLF.DEF</span>
       </div>
 
@@ -55,7 +55,7 @@ Usually <i>-kā/-ki</i> are described as only occurring with adjectives in defin
     <div class="ling-line">
 
       <div class="ling-word">
-        <span class="ling-form">baṛ-k\=a-go</span>
+        <span class="ling-form">baṛ-kā-go</span>
         <span class="ling-gloss">big-DET-CLF.INDF</span>
       </div>
 
@@ -383,6 +383,8 @@ Besides the disjunctive use, <i>ko</i> can combine with <i>wh</i>-items to form 
         <span class="ling-form">kuṇ-ko</span>
         <span class="ling-gloss">who-KO</span>
       </div>
+      
+    </div>
 
     <div class="ling-translation">
       “someone”

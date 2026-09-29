@@ -118,7 +118,7 @@ Besides this <i>anti-uniqueness</i> effect, <i>-wā</i> also comes with a non-ho
     </div>
 
     <div class="ling-translation">
-      “the teacher (derogatory)”
+      “the teacher" (pejorative)
     </div>
 
    </div>

@@ -4,18 +4,17 @@
 
 .fieldwork {
   margin-top: 30px;
+  font-family: var(--global-font-family);
+}
 
-  /*
-   * Headings
-   */
-  h1 {
-    color: var(--global-theme-color);
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: left;
-    margin-top: 1.5em;
-    margin-bottom: 0.75em;
-  }
+.fieldwork h1 {
+  color: var(--global-theme-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+}
 
 .fieldwork h2 {
   color: var(--global-text-color);
@@ -26,9 +25,6 @@
   margin-bottom: 0.6em;
 }
 
-  /*
-   * Buttons
-   */
 .fieldwork-links {
   display: flex;
   flex-direction: row;
@@ -51,9 +47,4 @@
 .fieldwork-links a.btn:hover {
   color: var(--global-theme-color);
   border-color: var(--global-theme-color);
-}
-
-  .fieldwork {
-  font-family: var(--global-font-family);
-}
 }

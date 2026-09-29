@@ -315,7 +315,7 @@ Interestingly, when <i>-i</i> is used with numerals, you get a maximal reading.
 
       <div class="ling-word">
         <span class="ling-form">cicāppar</span>
-        <span class="ling-gloss">go-<span style="font-variant: small-caps;">m.sg</span></span>
+        <span class="ling-gloss">boys.<span style="font-variant: small-caps;">pl</span></span>
       </div>
 
     </div>

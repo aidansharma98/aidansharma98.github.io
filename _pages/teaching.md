@@ -73,7 +73,7 @@ Usually <i>-kā/-ki</i> are described as only occurring with adjectives in defin
    </div>
 </div>
 
-I analyze this as a type of <i>determiner spreading</i> similar to well-known examples in Greek. You can see my most recent handout on determiner spreading here:
+I analyze this as a type of <i>determiner spreading</i> similar to well-known examples in Greek. You can see my most recent handout on determiner spreading <a href = "/assets/pdf/Sharma_YaleSynRG2026_handout.pdf">here</a>.
 
 
 <h2>Anti-uniqeness and Non-honorificity in Definite Marking</h2>
@@ -124,7 +124,7 @@ Besides this <i>anti-uniqueness</i> effect, <i>-wā</i> also comes with a non-ho
    </div>
 </div>
 
-We analyze <i>-wā</i> definites as indexed definites, and show that anti-uniqueness and non-honorificity are pragmatic effects commonly associated with indexed definites. You can see our most recent slides on Magahi <i>-wā</i> here:
+We analyze <i>-wā</i> definites as indexed definites, and show that anti-uniqueness and non-honorificity are pragmatic effects commonly associated with indexed definites. You can see our most recent slides on Magahi <i>-wā</i> <a href = "/assets/pdf/Sharma_Chen_SALT36_slides.pdf">here</a>.
 
 
 
@@ -177,9 +177,7 @@ Kazakh embedded clauses are often introduced by <i>dep</i>, which is a converbia
    </div>
 </div>
 
-With certain predicates related to speech, however, <i>dep</i> still behaves like a verb rather than a complementizer. You can check out our LSA proceedings paper on <i>dep</i> here:<div class="fieldwork-links">
-  <a href="https://journals.linguisticsociety.org/proceedings/index.php/PLSA/article/view/6083/5801" class="btn">Paper</a>
-</div>
+With certain predicates related to speech, however, <i>dep</i> still behaves like a verb rather than a complementizer. You can check out our LSA proceedings paper on <i>dep</i> <a href="https://journals.linguisticsociety.org/proceedings/index.php/PLSA/article/view/6083/5801">here</a>.
 
 
 <h2>Case Copying Reciprocals (with Merlin Balkhash)</h2>
@@ -255,7 +253,7 @@ But Kazakh reciprocals can also be formed from two separate instances of <i>bir<
   </div>
 </div>
 
-You can check out our most recent handout on Kazakh reciprocals here:
+You can check out our most recent handout on Kazakh reciprocals <a href = "/assets/pdf/Sharma_Balkhash_Tu+10_handout.pdf">here</a>.
 
 
 <h1>Banjara</h1>
@@ -327,7 +325,7 @@ Interestingly, when <i>-i</i> is used with numerals, you get a maximal reading.
   </div>
 </div>
 
-For how you can derive this maximal use in a way consistent with deriving the "also" and "even" uses, see my MACSIM poster (but note while the poster is on the same phenomenon, the data used in the poster is from Marathi, not Banjara): .
+For how you can derive this maximal use in a way consistent with deriving the "also" and "even" uses, see my MACSIM poster <a href = "/assets/pdf/Sharma_MACSIM12_poster.pdf">here</a> (but note while the poster is on the same phenomenon, the data used in the poster is from Marathi, not Banjara).
 
 <h2>Disjunctive Morphemes</h2>
 

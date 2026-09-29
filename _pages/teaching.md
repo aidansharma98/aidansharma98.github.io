@@ -130,7 +130,7 @@ We analyze <i>-wā</i> definites as indexed definites, and show that anti-unique
 
 <h1>Kazakh</h1>
 
-Kazakh (ISO: kaz) is a Turkic language primarily spoken in Kazakhstan. My interest in Kazakh began during my time studying Russian in Central Asia as part of UCLA's Russian Flagship Program, and I went back to Kazakhstan for fieldwork trip in the summer of 2025, as part of a group of Rutgers students led by <a href="https://www.adammccollum.net/about">Adam McCollum</a>. My current interests in Kazakh involve <i>say</i>-complementation and case copying reciprocals.
+Kazakh (ISO: kaz) is a Turkic language primarily spoken in Kazakhstan. My interest in Kazakh began during my time studying Russian in Central Asia as part of UCLA's Russian Flagship Program, and in the summer of 2025 I went back to Kazakhstan with some other Rutgers students for a fieldwork trip led by <a href="https://www.adammccollum.net/about">Adam McCollum</a>. My current interests in Kazakh involve <i>say</i>-complementation and case copying reciprocals.
 
 <h2>Say Complementation (with Ariela Ye)</h2>
 
@@ -258,7 +258,7 @@ You can check out our most recent handout on Kazakh reciprocals <a href = "/asse
 
 <h1>Banjara</h1>
 
-Banjara (ISO: lmn) is a Western Indo-Aryan language spoken by the Banjara, a group of traditional nomadic people in India. My work on Banjara began in a Spring 2026 field methods class taught at Rutgers by <a href="https://ryanwaltersmith.wixsite.com/home">Ryan Walter Smith</a>, and a group of us at Rutgers have continued to work on Banjara. Within Banjara, my primary interest is the use of multi-functional quantifier particles.
+Banjara (ISO: lmn) is a Western Indo-Aryan language spoken by the Banjara, a traditionally nomadic group of people in India. My work on Banjara began in a Spring 2026 field methods class taught at Rutgers by <a href="https://ryanwaltersmith.wixsite.com/home">Ryan Walter Smith</a>, and a group of us have continued to work on Banjara. Within Banjara, my primary interest is the use of multi-functional quantifier particles.
 
 
 <h2>Additive Morphemes</h2>

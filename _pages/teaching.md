@@ -11,15 +11,128 @@ Most of my research is based on fieldwork data.
 
 <h1>Magahi</h1>
 
-Magahi (ISO: mag) is an Eastern Indo-Aryan language primarily spoken in the Indian state of Bihar. My research on Magahi has primarily focused on the syntax and semantics of definite noun phrases. In particular, I'm interested in the  
+Magahi (ISO: mag) is an Eastern Indo-Aryan language primarily spoken in the Indian state of Bihar. Since 2023, I have been working with Magahi speakers based in the US, as well as remotely working with some speakers based in India. My research on Magahi has primarily focused on the syntax and semantics/pragmatics of definite noun phrases. In particular, I'm interested in the definite suffix <i>-wā/i>.
+
+<h2>Determiner Spreading</h2>
+
+<p>In noun phrases containing <i>-wā</i>, adjectives are usually marked with the suffix <i>-kā/-ki</i>. Magahi is a numeral classifier language, and interestingly adjectives marked with <i>-kā/-ki</i> can additionally be marked with a classifier. </p>
+
+<div class="ling-example">
+  <div class="ling-number">(1)</div>
+
+  <div class="ling-content">
+
+    <div class="ling-line">
+
+      <div class="ling-word">
+        <span class="ling-form">baṛ-k\=a-wā/span>
+        <span class="ling-gloss">big-DET-CLF.DEF</span>
+      </div>
+
+      <div class="ling-word">
+        <span class="ling-form">kut-wā</span>
+        <span class="ling-gloss">dog-CLF.DEF</span>
+      </div>
+
+    </div>
+
+    <div class="ling-translation">
+      “the big dog”
+    </div>
+
+   </div>
+</div>
+
+<p>Usually <i>-kā/-ki</i> are described as only occurring with adjectives in definite noun phrases, but they can occur in indefinite noun phrases (again with classifiers) too. </p>
+
+<div class="ling-example">
+  <div class="ling-number">(1)</div>
+
+  <div class="ling-content">
+
+    <div class="ling-line">
+
+      <div class="ling-word">
+        <span class="ling-form">baṛ-k\=a-go/span>
+        <span class="ling-gloss">big-DET-CLF.INDF</span>
+      </div>
+
+      <div class="ling-word">
+        <span class="ling-form">kuttā</span>
+        <span class="ling-gloss">dog</span>
+      </div>
+
+    </div>
+
+    <div class="ling-translation">
+      “a big dog”
+    </div>
+
+   </div>
+</div>
+
+<p>I argue that this is a type of <i>determiner spreading</i> similar to well-known examples in Greek. You can see my most recent handout on determiner spreading here: </p>
+
+
+<h2>Anti-uniqeness and Non-honorificity in Definite Marking</h2>
+
+<p>Magahi has a definite suffix <i>-wā</i>, but also allows definite bare nouns. A loose generalization is that bare nouns are used for unique definites and <i>-wā</i> is used for familiar definites. For example, <i>-wā</i> is not used with globally unique entities like <i>the sun</i>.</p>
+
+<div class="ling-example">
+  <div class="ling-number">(1)</div>
+
+  <div class="ling-content">
+
+    <div class="ling-line">
+
+      <div class="ling-word">
+        <span class="ling-form">suraj-#wā/span>
+        <span class="ling-gloss">suraj-#DEF</span>
+      </div>
+
+    </div>
+
+    <div class="ling-translation">
+      “the sun”
+    </div>
+
+   </div>
+</div>
+
+<p>Besides this <i>anti-uniqueness</i> effect, <i>-wā</i> also comes with a non-honorific interpretation. </p>
+
+<div class="ling-example">
+  <div class="ling-number">(1)</div>
+
+  <div class="ling-content">
+
+    <div class="ling-line">
+
+      <div class="ling-word">
+        <span class="ling-form">masṭar-wā/span>
+        <span class="ling-gloss">teacher-DEF</span>
+      </div>
+
+    </div>
+
+    <div class="ling-translation">
+      “the teacher (derogatory)”
+    </div>
+
+   </div>
+</div>
+
+<p>We argue that <i>-wā</i> definites are indexed definites, and that anti-uniqueness and non-honorificity are pragmatic effects commonly associated with indexed definites. You can see our most recent slides on Magahi <i>-wā</i> here: </p>
+
+
 
 <h1>Kazakh</h1>
 
-Kazakh (ISO: kaz) is a Turkic language primarily spoken in Kazakhstan. My interest in Kazakh began during my time studying Russian in Central Asia as part of UCLA's Russian Flagship Program. I went back to Kazakhstan for fieldwork in the summer of 2025, as part of a group of Rutgers students led by Adam McCollum. My research on Kazakh has primarily looked at the following 3 topics:
+<p>Kazakh (ISO: kaz) is a Turkic language primarily spoken in Kazakhstan. My interest in Kazakh began during my time studying Russian in Central Asia as part of UCLA's Russian Flagship Program, and I went back to Kazakhstan for fieldwork trip in the summer of 2025, as part of a group of Rutgers students led by <a href="https://www.adammccollum.net/about">Adam McCollum</a>. My current interests in Kazakh involve <i>say</i>-complementation and case copying reciprocals.</p>
 
 <h2>Say Complementation (with Ariela Ye)</h2>
 
-<p>Kazakh embedded clauses can be introduced by the complementizer <i>dep</i>, which is a converbial form of the verb <i>dep</i> "say". Interestingly, while <i>dep</i> also has a converb use, the <i>dep</i> that introduces embedded clauses can also behave like a true complementizer. For example, while *deu* does not admit non-human subjects as a speech verb, <i>dep</i> can introduce an embedded clause under a matrix clause with a non-human subject. </p>
+<p>Kazakh embedded clauses are often introduced by <i>dep</i>, which is a converbial form of the verb <i>deu</i> "to say". Interestingly, while <i>dep</i> has a converb use, the <i>dep</i> that introduces embedded clauses can also behave like a true complementizer. For example, while <i>deu</i> does not admit non-human subjects as a speech verb, <i>dep</i> can introduce an embedded clause under a matrix clause with a non-human subject.</p>
 
 <div class="ling-example">
   <div class="ling-number">(1)</div>
@@ -62,17 +175,12 @@ Kazakh (ISO: kaz) is a Turkic language primarily spoken in Kazakhstan. My intere
    </div>
 </div>
 
-<p>You can check out our LSA proceedings paper on <i>dep</i> here: </p>
+<p>With certain predicates related to speech, however, <i>dep</i> still behaves like a verb rather than a complementizer. You can check out our LSA proceedings paper on <i>dep</i> here: </p>
 
 
 <h2>Case Copying Reciprocals (with Merlin Balkhash)</h2>
 
-<p>
-Kazakh reciprocals are formed from <i>bir</i> — the numeral one. One way
-to form Kazakh reciprocals is by doubling <i>bir</i>, adding an agreement
-suffix matching the person of the antecedent, and adding the appropriate
-case marker.
-</p>
+<p>Kazakh reciprocals are formed from <i>bir</i> — the numeral one. One way to form Kazakh reciprocals is by doubling <i>bir</i>, adding an agreement suffix matching the person of the antecedent, and adding the appropriate case marker for the position of the reciprocal in the clause.</p>
 
 <div class="ling-example">
   <div class="ling-number">(1)</div>
@@ -105,12 +213,7 @@ case marker.
   </div>
 </div>
 
-<p>
-But Kazakh reciprocals can also be formed from two separate instances of <i>bir</i>,
-each with their own agreement suffix. One then takes the case marker the
-argument "each other" is expected to get, and the other matches the
-antecedent in case.
-</p>
+<p>But Kazakh reciprocals can also be formed from two separate instances of <i>bir</i>, each with their own agreement suffix. One then takes the case marker the reciprocal argument is expected to get, and the other matches the antecedent in case. </p>
 
 <div class="ling-example">
   <div class="ling-number">(2)</div>
@@ -148,9 +251,12 @@ antecedent in case.
   </div>
 </div>
 
-<p>You can check out our most recent handout on this topic here: </p>
+<p>You can check out our most recent handout on Kazakh reciprocals here: </p>
 
 
 <h1>Banjara</h1>
 
-Banjara (ISO: lmn)
+<p>Banjara (ISO: lmn) is a Western Indo-Aryan language spoken by the Banjara, a group of traditional nomadic people in India. My work on Banjara began in a Spring 2026 field methods class taught at Rutgers by <a href="https://ryanwaltersmith.wixsite.com/home">Ryan Walter Smith</a>. A group of us at Rutgers have continued to work on Banjara. Within Banjara, my primary interest is the use of multi-functional quantifier particles.</p>
+
+
+<h2>Additive Morphemes</h2>

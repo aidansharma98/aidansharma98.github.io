@@ -3,10 +3,12 @@ layout: page
 permalink: /fieldwork/
 title: Fieldwork
 description: 
-nav: false
+nav: true
 nav_order: 4
 ---
 
+<div class="fieldwork">
+  
 Most of my research is based on fieldwork data. 
 
 <h1>Magahi</h1>
@@ -175,7 +177,9 @@ Magahi (ISO: mag) is an Eastern Indo-Aryan language primarily spoken in the Indi
    </div>
 </div>
 
-<p>With certain predicates related to speech, however, <i>dep</i> still behaves like a verb rather than a complementizer. You can check out our LSA proceedings paper on <i>dep</i> here: </p>
+<p>With certain predicates related to speech, however, <i>dep</i> still behaves like a verb rather than a complementizer. You can check out our LSA proceedings paper on <i>dep</i> here:</p> <div class="fieldwork-links">
+  <a href="https://journals.linguisticsociety.org/proceedings/index.php/PLSA/article/view/6083/5801" class="btn">Paper</a>
+</div>
 
 
 <h2>Case Copying Reciprocals (with Merlin Balkhash)</h2>
@@ -389,3 +393,5 @@ Magahi (ISO: mag) is an Eastern Indo-Aryan language primarily spoken in the Indi
 
 
 <p>These varied uses raise an interesting question for what a unified semantics for <i>ko</i> looks like. </p>
+
+</div>

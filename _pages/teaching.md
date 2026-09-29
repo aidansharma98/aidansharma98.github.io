@@ -28,12 +28,12 @@ In noun phrases containing <i>-wā</i>, adjectives are usually marked with the s
 
       <div class="ling-word">
         <span class="ling-form">baṛ-ka-wā</span>
-        <span class="ling-gloss">big-DET-CLF.DEF</span>
+        <span class="ling-gloss">big-<span style="font-variant: small-caps;">det-clf.def</span></span>
       </div>
 
       <div class="ling-word">
         <span class="ling-form">kut-wā</span>
-        <span class="ling-gloss">dog-CLF.DEF</span>
+        <span class="ling-gloss">dog-<span style="font-variant: small-caps;">clf.def</span></span>
       </div>
 
     </div>
@@ -56,7 +56,7 @@ Usually <i>-kā/-ki</i> are described as only occurring with adjectives in defin
 
       <div class="ling-word">
         <span class="ling-form">baṛ-kā-go</span>
-        <span class="ling-gloss">big-DET-CLF.INDF</span>
+        <span class="ling-gloss">big-<span style="font-variant: small-caps;">det-clf.indf</span></span>
       </div>
 
       <div class="ling-word">
@@ -89,7 +89,7 @@ Magahi has a definite suffix <i>-wā</i>, but also allows definite bare nouns. A
 
       <div class="ling-word">
         <span class="ling-form">suraj-#wā</span>
-        <span class="ling-gloss">suraj-#DEF</span>
+        <span class="ling-gloss">sun-<span style="font-variant: small-caps;">#clf.def</span></span>
       </div>
 
     </div>
@@ -112,7 +112,7 @@ Besides this <i>anti-uniqueness</i> effect, <i>-wā</i> also comes with a non-ho
 
       <div class="ling-word">
         <span class="ling-form">masṭar-wā</span>
-        <span class="ling-gloss">teacher-DEF</span>
+        <span class="ling-gloss">teacher-<span style="font-variant: small-caps;">clf.def</span></span>
       </div>
 
     </div>
@@ -150,22 +150,22 @@ Kazakh embedded clauses are often introduced by <i>dep</i>, which is a converbia
 
       <div class="ling-word">
         <span class="ling-form">on-y</span>
-        <span class="ling-gloss">3SG-ACC</span>
+        <span class="ling-gloss"><span style="font-variant: small-caps;">3sg-acc</span></span>
       </div>
 
       <div class="ling-word">
         <span class="ling-form">tamaqtan-dyr-ma-dy</span>
-        <span class="ling-gloss">eat-CAUS-3-NEG-PST</span>
+        <span class="ling-gloss">eat-<span style="font-variant: small-caps;">caus-3-neg-pst</span></span>
       </div>
 
       <div class="ling-word">
         <span class="ling-form">dep</span>
-        <span class="ling-gloss">DEP</span>
+        <span class="ling-gloss"><span style="font-variant: small-caps;">dep</span></span>
       </div>
 
       <div class="ling-word">
         <span class="ling-form">mïyawla-dy</span>
-        <span class="ling-gloss">meow-PST</span>
+        <span class="ling-gloss">meow-<span style="font-variant: small-caps;">pst</span></span>
       </div>
 
     </div>
@@ -195,17 +195,17 @@ Kazakh reciprocals are formed from <i>bir</i> — the numeral one. One way to fo
 
       <div class="ling-word">
         <span class="ling-form">O-lar</span>
-        <span class="ling-gloss">3-PL</span>
+        <span class="ling-gloss"><span style="font-variant: small-caps;">3-pl</span></span>
       </div>
 
       <div class="ling-word">
         <span class="ling-form">bir-bir-i-n</span>
-        <span class="ling-gloss">one-one-3-ACC</span>
+        <span class="ling-gloss">one-one-<span style="font-variant: small-caps;">3-acc</span></span>
       </div>
 
       <div class="ling-word">
         <span class="ling-form">kör-di</span>
-        <span class="ling-gloss">see-PST</span>
+        <span class="ling-gloss">see-<span style="font-variant: small-caps;">pst</span></span>
       </div>
 
     </div>
@@ -228,12 +228,12 @@ But Kazakh reciprocals can also be formed from two separate instances of <i>bir<
 
       <div class="ling-word">
         <span class="ling-form">O-lar</span>
-        <span class="ling-gloss">3-PL</span>
+        <span class="ling-gloss"><span style="font-variant: small-caps;">3-pl</span></span>
       </div>
 
       <div class="ling-word">
         <span class="ling-form">bir-i-n</span>
-        <span class="ling-gloss">one-3-ACC</span>
+        <span class="ling-gloss">one-<span style="font-variant: small-caps;">3-acc</span></span>
       </div>
 
       <div class="ling-word">
@@ -243,7 +243,7 @@ But Kazakh reciprocals can also be formed from two separate instances of <i>bir<
 
       <div class="ling-word">
         <span class="ling-form">kör-di</span>
-        <span class="ling-gloss">see-PST</span>
+        <span class="ling-gloss">see-<span style="font-variant: small-caps;">pst</span></span>
       </div>
 
     </div>
@@ -276,17 +276,17 @@ In Banjara, the morpheme <i>-i</i> can be interpreted as additive "also" or as s
 
       <div class="ling-word">
         <span class="ling-form">u-i</span>
-        <span class="ling-gloss">3SG-ADD</span>
+        <span class="ling-gloss"><span style="font-variant: small-caps;">3sg-add</span></span>
       </div>
 
       <div class="ling-word">
         <span class="ling-form">g-o</span>
-        <span class="ling-gloss">go-M.SG</span>
+        <span class="ling-gloss">go-<span style="font-variant: small-caps;">m.sg</span></span>
       </div>
 
       <div class="ling-word">
         <span class="ling-form">ch-a</span>
-        <span class="ling-gloss">COP.PRS-3</span>
+        <span class="ling-gloss"><span style="font-variant: small-caps;">cop.prs-3</span></span>
       </div>
 
     </div>
@@ -310,12 +310,12 @@ Interestingly, when <i>-i</i> is used with numerals, you get a maximal reading.
 
       <div class="ling-word">
         <span class="ling-form">tin-i</span>
-        <span class="ling-gloss">three-ADD</span>
+        <span class="ling-gloss">three-<span style="font-variant: small-caps;">add</span></span>
       </div>
 
       <div class="ling-word">
         <span class="ling-form">cicāppar</span>
-        <span class="ling-gloss">go-M.SG</span>
+        <span class="ling-gloss">go-<span style="font-variant: small-caps;">m.sg</span></span>
       </div>
 
     </div>
@@ -347,17 +347,17 @@ In Banjara, the morpheme <i>ko</i> can mark disjuncts to form a disjunction.
 
       <div class="ling-word">
         <span class="ling-form">ko</span>
-        <span class="ling-gloss">KO</span>
+        <span class="ling-gloss"><span style="font-variant: small-caps;">ko</span></span>
       </div>
 
       <div class="ling-word">
-        <span class="ling-form">Khimyā-ko</span>
-        <span class="ling-gloss">Khimya-KO</span>
+        <span class="ling-form">Khimyā</span>
+        <span class="ling-gloss">Khimya</span>
       </div>
 
       <div class="ling-word">
         <span class="ling-form">ko</span>
-        <span class="ling-gloss">KO</span>
+        <span class="ling-gloss"><span style="font-variant: small-caps;">ko</span></span>
       </div>
 
     </div>
@@ -381,7 +381,7 @@ Besides the disjunctive use, <i>ko</i> can combine with <i>wh</i>-items to form 
 
       <div class="ling-word">
         <span class="ling-form">kuṇ-ko</span>
-        <span class="ling-gloss">who-KO</span>
+        <span class="ling-gloss">who-<span style="font-variant: small-caps;">ko</span></span>
       </div>
       
     </div>
@@ -394,6 +394,6 @@ Besides the disjunctive use, <i>ko</i> can combine with <i>wh</i>-items to form 
 </div>
 
 
-These varied uses raise an interesting question for what a unified semantics for <i>ko</i> looks like.
+My current project is figuring out what a unified semantics for the many uses of <i>ko</i> looks like.
 
 </div>

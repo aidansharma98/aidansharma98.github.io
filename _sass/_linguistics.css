@@ -32,10 +32,8 @@
 
 .ling-gloss {
   display: block;
-}
-
-.ling-gloss {
   font-size: 0.9em;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .ling-translation {

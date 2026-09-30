@@ -76,7 +76,7 @@ Usually <i>-kā/-ki</i> are described as only occurring with adjectives in defin
 I analyze this as a type of <i>determiner spreading</i> similar to well-known examples in Greek. You can see my most recent handout on determiner spreading <a href = "/assets/pdf/Sharma_YaleSynRG2026_handout.pdf">here</a>.
 
 
-<h2>Anti-uniqeness and Non-honorificity in Definite Marking</h2>
+<h2>Anti-uniqeness and Non-honorificity in Definite Marking (with Jiayuan Chen)</h2>
 
 Magahi has a definite suffix <i>-wā</i>, but also allows definite bare nouns. A loose generalization is that bare nouns are used for unique definites and <i>-wā</i> is used for familiar definites. For example, <i>-wā</i> is not used with globally unique entities like <i>the sun</i>.
 

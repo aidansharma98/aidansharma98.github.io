@@ -327,7 +327,7 @@ Interestingly, when <i>-i</i> is used with numerals, you get a maximal reading.
 
 For how you can derive this maximal use in a way consistent with deriving the "also" and "even" uses, see my MACSIM poster <a href = "/assets/pdf/Sharma_MACSIM12_poster.pdf">here</a> (but note while the poster is on the same phenomenon, the data used in the poster is from Marathi, not Banjara).
 
-<h2>Disjunctive Morphemes</h2>
+<h2>Disjunctive Morphemes (with Ryan Walter Smith)</h2>
 
 In Banjara, the morpheme <i>ko</i> can mark disjuncts to form a disjunction.
 
@@ -392,6 +392,6 @@ Besides the disjunctive use, <i>ko</i> can combine with <i>wh</i>-items to form 
 </div>
 
 
-My current project is figuring out what a unified semantics for the many uses of <i>ko</i> looks like.
+Our current project is figuring out what a unified semantics for the many uses of <i>ko</i> looks like.
 
 </div>

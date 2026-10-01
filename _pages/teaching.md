@@ -339,7 +339,7 @@ In Banjara, the morpheme <i>ko</i> can mark disjuncts to form a disjunction.
     <div class="ling-line">
 
       <div class="ling-word">
-        <span class="ling-form">Balyā</span>
+        <span class="ling-form">balyā</span>
         <span class="ling-gloss">Balya</span>
       </div>
 
@@ -349,7 +349,7 @@ In Banjara, the morpheme <i>ko</i> can mark disjuncts to form a disjunction.
       </div>
 
       <div class="ling-word">
-        <span class="ling-form">Khimyā</span>
+        <span class="ling-form">khimyā</span>
         <span class="ling-gloss">Khimya</span>
       </div>
 

@@ -73,7 +73,7 @@ Usually <i>-kā/-ki</i> are described as only occurring with adjectives in defin
    </div>
 </div>
 
-I analyze this as a type of <i>determiner spreading</i> similar to well-known examples in Greek. You can see my most recent handout on determiner spreading <a href = "/assets/pdf/Sharma_YaleSynRG2026_handout.pdf">here</a>.
+I analyze this as a type of <i>determiner spreading</i> similar to well-known examples in Greek. You can see my GLOW proceedings paper on determiner spreading syntax here <a href = "/assets/pdf/Sharma_GLOW48_proceedings.pdf">here</a> and my most recent handout on determiner spreading semantics <a href = "/assets/pdf/Sharma_NELS57_handout.pdf">here</a>..
 
 
 <h2>Anti-uniqeness and Non-honorificity in Definite Marking (with Jiayuan Chen)</h2>

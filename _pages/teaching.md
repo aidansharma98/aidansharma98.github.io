@@ -132,7 +132,7 @@ We analyze <i>-wā</i> definites as indexed definites, and show that anti-unique
 
 Kazakh (ISO: kaz) is a Turkic language primarily spoken in Kazakhstan. My interest in Kazakh began during my time studying Russian in Central Asia as part of UCLA's Russian Flagship Program, and in the summer of 2025 I went back to Kazakhstan with some other Rutgers students for a fieldwork trip led by <a href="https://www.adammccollum.net/about">Adam McCollum</a>. My current interests in Kazakh involve <i>say</i>-complementation and case copying reciprocals.
 
-<h2>Say Complementation (with Ariela Ye)</h2>
+<h2>Say Complementation (with <a href="https://www.arielaye.com/">Ariela Ye</a>)</h2>
 
 Kazakh embedded clauses are often introduced by <i>dep</i>, which is a converbial form of the verb <i>deu</i> "to say". Interestingly, while <i>dep</i> has a converb use, the <i>dep</i> that introduces embedded clauses can also behave like a true complementizer. For example, while <i>deu</i> does not admit non-human subjects as a speech verb, <i>dep</i> can introduce an embedded clause under a matrix clause with a non-human subject.
 
@@ -327,7 +327,7 @@ Interestingly, when <i>-i</i> is used with numerals, you get a maximal reading.
 
 For how you can derive this maximal use in a way consistent with deriving the "also" and "even" uses, see my MACSIM poster <a href = "/assets/pdf/Sharma_MACSIM12_poster.pdf">here</a> (but note while the poster is on the same phenomenon, the data used in the poster is from Marathi, not Banjara).
 
-<h2>Disjunctive Morphemes (with Ryan Walter Smith)</h2>
+<h2>Disjunctive Morphemes (with <a href="https://ryanwaltersmith.wixsite.com/home">Ryan Walter Smith</a>)</h2>
 
 In Banjara, the morpheme <i>ko</i> can mark disjuncts to form a disjunction.
 
